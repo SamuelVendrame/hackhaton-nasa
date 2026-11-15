@@ -1,0 +1,14 @@
+{
+  "name": "semeia",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Semeia: consultor de plantio com dados da NASA para o pequeno produtor (NASA Space Apps 2026, desafio Field Shift)",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dados:nasa": "node scripts/nasa-power.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

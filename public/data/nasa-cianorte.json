@@ -1,0 +1,272 @@
+{
+ "fonte": {
+  "nome": "NASA POWER, comunidade Agroclimatologia",
+  "url": "https://power.larc.nasa.gov/",
+  "parametros": {
+   "PRECTOTCORR": "chuva (mm/dia)",
+   "T2M_MAX": "temperatura máxima a 2 m (°C)",
+   "T2M_MIN": "temperatura mínima a 2 m (°C)",
+   "GWETROOT": "umidade do solo na zona das raízes (0 a 1)"
+  },
+  "observacao": "Dados em grade de satélite e reanálise para a região, não de estação na propriedade.",
+  "geradoEm": "2026-11-15T03:32:24.557Z",
+  "ultimoDia": "2026-11-11"
+ },
+ "local": {
+  "nome": "Cianorte, PR",
+  "lat": -23.663,
+  "lon": -52.605
+ },
+ "periodos": {
+  "antigo": {
+   "anos": [
+    1981,
+    2000
+   ],
+   "chuvaMensal": [
+    185,
+    152,
+    123,
+    119,
+    130,
+    108,
+    57,
+    68,
+    131,
+    151,
+    129,
+    168
+   ],
+   "chuvaAnual": 1520,
+   "chuvaAbrMai": 249,
+   "diasCalorAno": 29,
+   "veranicoOutonoMedio": 12.2,
+   "anosComVeranico15": 7,
+   "chuvaJanelaSafrinha": 526,
+   "chuvaJanelaSafrinhaMin": 359,
+   "pctAnosGeadaSafrinha": 50,
+   "pctAnosGeadaMaio": 0,
+   "totalAnos": 20
+  },
+  "recente": {
+   "anos": [
+    2006,
+    2025
+   ],
+   "chuvaMensal": [
+    175,
+    154,
+    126,
+    84,
+    91,
+    84,
+    61,
+    67,
+    85,
+    168,
+    132,
+    180
+   ],
+   "chuvaAnual": 1407,
+   "chuvaAbrMai": 175,
+   "diasCalorAno": 40.1,
+   "veranicoOutonoMedio": 18.3,
+   "anosComVeranico15": 11,
+   "chuvaJanelaSafrinha": 435,
+   "chuvaJanelaSafrinhaMin": 271,
+   "pctAnosGeadaSafrinha": 50,
+   "pctAnosGeadaMaio": 5,
+   "totalAnos": 20
+  }
+ },
+ "diasCalorPorAno": [
+  {
+   "ano": 1981,
+   "dias": 14
+  },
+  {
+   "ano": 1982,
+   "dias": 0
+  },
+  {
+   "ano": 1983,
+   "dias": 0
+  },
+  {
+   "ano": 1984,
+   "dias": 29
+  },
+  {
+   "ano": 1985,
+   "dias": 82
+  },
+  {
+   "ano": 1986,
+   "dias": 55
+  },
+  {
+   "ano": 1987,
+   "dias": 17
+  },
+  {
+   "ano": 1988,
+   "dias": 83
+  },
+  {
+   "ano": 1989,
+   "dias": 6
+  },
+  {
+   "ano": 1990,
+   "dias": 16
+  },
+  {
+   "ano": 1991,
+   "dias": 50
+  },
+  {
+   "ano": 1992,
+   "dias": 34
+  },
+  {
+   "ano": 1993,
+   "dias": 22
+  },
+  {
+   "ano": 1994,
+   "dias": 48
+  },
+  {
+   "ano": 1995,
+   "dias": 20
+  },
+  {
+   "ano": 1996,
+   "dias": 8
+  },
+  {
+   "ano": 1997,
+   "dias": 13
+  },
+  {
+   "ano": 1998,
+   "dias": 15
+  },
+  {
+   "ano": 1999,
+   "dias": 46
+  },
+  {
+   "ano": 2000,
+   "dias": 21
+  },
+  {
+   "ano": 2001,
+   "dias": 14
+  },
+  {
+   "ano": 2002,
+   "dias": 48
+  },
+  {
+   "ano": 2003,
+   "dias": 14
+  },
+  {
+   "ano": 2004,
+   "dias": 30
+  },
+  {
+   "ano": 2005,
+   "dias": 39
+  },
+  {
+   "ano": 2006,
+   "dias": 35
+  },
+  {
+   "ano": 2007,
+   "dias": 33
+  },
+  {
+   "ano": 2008,
+   "dias": 29
+  },
+  {
+   "ano": 2009,
+   "dias": 13
+  },
+  {
+   "ano": 2010,
+   "dias": 19
+  },
+  {
+   "ano": 2011,
+   "dias": 19
+  },
+  {
+   "ano": 2012,
+   "dias": 72
+  },
+  {
+   "ano": 2013,
+   "dias": 26
+  },
+  {
+   "ano": 2014,
+   "dias": 29
+  },
+  {
+   "ano": 2015,
+   "dias": 18
+  },
+  {
+   "ano": 2016,
+   "dias": 9
+  },
+  {
+   "ano": 2017,
+   "dias": 22
+  },
+  {
+   "ano": 2018,
+   "dias": 10
+  },
+  {
+   "ano": 2019,
+   "dias": 63
+  },
+  {
+   "ano": 2020,
+   "dias": 75
+  },
+  {
+   "ano": 2021,
+   "dias": 58
+  },
+  {
+   "ano": 2022,
+   "dias": 40
+  },
+  {
+   "ano": 2023,
+   "dias": 58
+  },
+  {
+   "ano": 2024,
+   "dias": 103
+  },
+  {
+   "ano": 2025,
+   "dias": 71
+  }
+ ],
+ "diasCalorUltimos5Anos": 66,
+ "situacaoAtual": {
+  "data": "2026-11-11",
+  "chuvaUltimos30Dias": 260,
+  "chuvaNormal30Dias": 152,
+  "umidadeSolo": 69,
+  "umidadeSoloNormal": 61
+ }
+}

@@ -1,13 +1,13 @@
 # Visão do produto
 
 Documento de negócio da equipe para o desafio *Field Shift: Adapting Farms with NASA Data* (NASA Space Apps 2026).
-Versão 0.1, de 14/11/2026: primeira organização do resumo da equipe.
+Versão 0.2, de 15/11/2026: o produto se chama **Semeia** e o assistente, **Cid**; o WhatsApp saiu do escopo e a conversa por áudio fica dentro do aplicativo.
 
 As seções 1 a 7 registram o que a equipe já definiu. As seções 8 a 10 são análise e sugestões acrescentadas na organização do documento, e ainda precisam ser validadas pela equipe.
 
 ## 1. Resumo
 
-Uma consultoria de IA para o pequeno e médio produtor rural. O produtor conversa por áudio no WhatsApp com um consultor que o ajuda a decidir **o que plantar no próximo ciclo**, considerando o clima esperado para a janela de cultivo, a rotação de culturas, o estado do solo e a realidade de mercado dele. Um aplicativo complementa a conversa com previsões, cadastros e resumos.
+Uma consultoria de IA para o pequeno e médio produtor rural. No aplicativo **Semeia**, o produtor conversa por áudio com o **Cid**, um consultor que o ajuda a decidir **o que plantar no próximo ciclo**, considerando o clima esperado para a janela de cultivo, a rotação de culturas, o estado do solo e a realidade de mercado dele. O mesmo aplicativo mostra previsões, o clima histórico da roça, cadastros e a comparação dos caminhos de rotação.
 
 ## 2. Problema
 
@@ -32,8 +32,9 @@ Uma consultoria de IA para o pequeno e médio produtor rural. O produtor convers
 
 **Como o produtor usa:**
 
-- **WhatsApp por áudio (canal principal):** o produtor pergunta e recebe a orientação falando, sem precisar ler telas ou preencher formulários.
-- **Aplicativo (apoio):** visualizar previsões das próximas semanas, cadastrar dados da propriedade e consultar resumos.
+- **Conversa por áudio com o Cid, no aplicativo (canal principal):** o produtor pergunta e recebe a orientação falando, sem precisar ler telas ou preencher formulários. As respostas também podem ser lidas.
+- **Telas do aplicativo (apoio):** previsão das próximas semanas, clima histórico da roça com dados da NASA, comparação dos caminhos de rotação, cadastro das lavouras e do histórico de plantio.
+- **WhatsApp:** fora do escopo atual (decisão de 15/11/2026).
 
 **O que o produtor informa:**
 
@@ -65,7 +66,7 @@ Um motor de IA com um *harness* que permite ao modelo consumir todas essas infor
 
 Derivados do resumo da equipe; a validar e priorizar.
 
-1. **Áudio no WhatsApp.** Leva análise de dados de satélite a quem não usa painéis nem mapas, no canal que o produtor já usa todos os dias.
+1. **Conversa por áudio.** Leva análise de dados de satélite a quem não usa painéis nem mapas: o produtor fala a pergunta e ouve a resposta.
 2. **Decisão, não dado.** A saída é uma recomendação do que plantar, com explicação, e não um gráfico para o produtor interpretar.
 3. **Contexto do produtor.** Combina dados da NASA com o histórico da propriedade, a análise de solo e a condição de venda dele.
 4. **Realidade da cooperativa.** Considera o pré-fixado, que na prática limita o que o produtor pode escolher.
@@ -82,7 +83,7 @@ O que o desafio pede e como a ideia se posiciona (texto do desafio em [../CHALLE
 | Comparar **pelo menos três estratégias de rotação, incluindo a atual** | Ainda não previsto. Hoje a ideia devolve uma indicação. |
 | Para cada estratégia: por que foi sugerida, evidências, benefícios, lacunas de informação e riscos que pedem revisão local | Ainda não previsto. |
 | Apoiar, e não substituir, o julgamento do produtor e de especialistas locais | Compatível com o papel de consultor; convém deixar explícito. |
-| Ser interpretável por quem tem pouca experiência técnica | Ponto forte: áudio no WhatsApp. |
+| Ser interpretável por quem tem pouca experiência técnica | Ponto forte: conversa por áudio com o Cid. |
 | Permitir que o produtor informe prioridades e restrições (água, equipamento, mercado) | Parcial: mercado sim; água e equipamento ainda não. |
 | Inspiração em famílias produtoras há gerações | A persona coincide com a do desafio. |
 
@@ -101,7 +102,7 @@ O que o desafio pede e como a ideia se posiciona (texto do desafio em [../CHALLE
 - **Cobertura das fontes.** 13 das 26 fontes da aba Resources cobrem só os EUA ou a América do Norte. Para Cianorte servem as de satélite da NASA (SMAP, IMERG, Landsat, MODIS, POWER, SRTM, ECOSTRESS), GLDAS, GAEZ, Sentinel-2 e ERA5. Solo, uso da terra, estatísticas e mercado terão de vir de fontes brasileiras.
 - **Fontes brasileiras a avaliar**, além de IPARDES e EMBRAPA: ZARC (zoneamento de risco climático, com janelas de plantio por município, cultura e tipo de solo), SIMEPAR e IDR-Paraná (clima e agrometeorologia do estado), INMET, CONAB (preços e custos), DERAL/SEAB (safra por município), IBGE/PAM (produção municipal) e MapBiomas (uso da terra). Nenhuma foi consultada ainda.
 - **Previsão do tempo.** As fontes do desafio são de observação e histórico, não de previsão. As "previsões das próximas semanas" do aplicativo e o clima esperado da janela de cultivo dependem de uma fonte de previsão ainda não definida, ou de climatologia e tendência calculadas sobre o histórico.
-- **Análise de solo por áudio.** O laudo costuma ser um papel ou PDF do laboratório; enviar foto pelo WhatsApp tende a ser mais simples e menos sujeito a erro do que ditar os valores.
+- **Análise de solo por áudio.** O laudo costuma ser um papel ou PDF do laboratório; enviar foto pelo aplicativo tende a ser mais simples e menos sujeito a erro do que ditar os valores.
 - **Papel da cooperativa.** Definir se ela é só um fator na decisão ou também parceira e canal (acesso aos produtores, dados de preço, agrônomos que revisam as recomendações).
 - **Modelo de negócio.** Quem paga: o produtor, a cooperativa ou outro agente.
 - **Responsabilidade pela recomendação.** Como deixar claro para o produtor o grau de incerteza e quando procurar o agrônomo.

@@ -1,0 +1,79 @@
+{
+ "aviso": "Propriedade, histórico, análise de solo e preços são dados de exemplo para a demonstração.",
+ "produtor": { "nome": "Seu Antônio", "tratamento": "o senhor" },
+ "propriedade": {
+  "nome": "Sítio Boa Vista",
+  "municipio": "Cianorte",
+  "uf": "PR",
+  "regiao": "Noroeste do PR",
+  "lat": -23.663,
+  "lon": -52.605,
+  "hectares": 12,
+  "solo": {
+   "tipo": "Arenoso (Arenito Caiuá)",
+   "analise": { "data": "2025-08-10", "ph": 5.1, "materiaOrganica": 1.1, "saturacaoBases": 46 },
+   "resumo": "Solo arenoso, com pouca matéria orgânica. Segura pouca água e é fácil de erodir."
+  },
+  "cooperativa": {
+   "nome": "Cooperativa da região",
+   "contratos": [
+    { "cultura": "Milho", "tipo": "Pré-fixado", "entrega": "jul/2027", "precoSaca": 58 },
+    { "cultura": "Sorgo", "tipo": "Pré-fixado", "entrega": "jul/2027", "precoSaca": 46 }
+   ],
+   "observacao": "A cooperativa não compra feijão: a venda é no mercado local, com preço que muda muito."
+  }
+ },
+ "lavouras": [
+  {
+   "id": "milho",
+   "nome": "Área do milho",
+   "cultura": "Milho",
+   "hectares": 7,
+   "status": "Crescendo",
+   "situacao": "milho de verão plantado em 2 de outubro de 2026, crescendo, colheita prevista para 15 de fevereiro de 2027",
+   "plantio": "2026-10-02",
+   "colheitaPrevista": "2027-02-15",
+   "ultimaIrrigacao": "2026-11-12",
+   "historico": [
+    { "safra": "Verão 2023/24", "cultura": "Soja" },
+    { "safra": "Safrinha 2024", "cultura": "Milho" },
+    { "safra": "Verão 2024/25", "cultura": "Soja" },
+    { "safra": "Safrinha 2025", "cultura": "Milho", "nota": "Quebra por falta de chuva em abril" },
+    { "safra": "Verão 2025/26", "cultura": "Soja" },
+    { "safra": "Safrinha 2026", "cultura": "Milho", "nota": "Geada no fim de junho" },
+    { "safra": "Verão 2026/27", "cultura": "Milho", "atual": true }
+   ],
+   "aplicacoes": [
+    { "data": "2026-11-08", "produto": "Ureia (cobertura)", "qtd": "120 kg/ha" },
+    { "data": "2026-10-02", "produto": "NPK 08-28-16", "qtd": "300 kg/ha" },
+    { "data": "2026-09-18", "produto": "Gesso agrícola", "qtd": "1 t/ha" },
+    { "data": "2026-09-05", "produto": "Calcário dolomítico", "qtd": "2 t/ha" },
+    { "data": "2026-04-22", "produto": "Ureia (cobertura)", "qtd": "100 kg/ha" },
+    { "data": "2026-03-01", "produto": "NPK 10-20-20", "qtd": "250 kg/ha" }
+   ]
+  },
+  {
+   "id": "feijao",
+   "nome": "Área do feijão",
+   "cultura": "Feijão",
+   "hectares": 5,
+   "status": "Esperando chuva",
+   "situacao": "feijão das águas ainda não plantado; a época de plantar é agora, em novembro, e ele espera a chuva firmar para semear",
+   "plantio": null,
+   "colheitaPrevista": null,
+   "ultimaIrrigacao": null,
+   "historico": [
+    { "safra": "Verão 2024/25", "cultura": "Soja" },
+    { "safra": "Safrinha 2025", "cultura": "Aveia-preta (cobertura)" },
+    { "safra": "Verão 2025/26", "cultura": "Feijão" },
+    { "safra": "Safrinha 2026", "cultura": "Milho" },
+    { "safra": "Verão 2026/27", "cultura": "Feijão", "atual": true, "nota": "Plantio planejado" }
+   ],
+   "aplicacoes": [
+    { "data": "2026-11-06", "produto": "Calcário dolomítico", "qtd": "1,5 t/ha" },
+    { "data": "2026-10-25", "produto": "Esterco curtido", "qtd": "8 t/ha" },
+    { "data": "2026-03-18", "produto": "Gesso agrícola", "qtd": "0,8 t/ha" }
+   ]
+  }
+ ]
+}

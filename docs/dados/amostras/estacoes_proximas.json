@@ -1,0 +1,61 @@
+{
+  "ferramenta": "estacoes_proximas",
+  "local": {
+    "cep": "87209000",
+    "municipio": "Cianorte",
+    "uf": "PR",
+    "ibge": "4105508",
+    "lat": -23.66333,
+    "lon": -52.605,
+    "precisao": "cep"
+  },
+  "resumo": [
+    "Estações INMET operantes mais próximas: CIDADE GAUCHA (A869, 48 km); GOIOERE (A825, 73 km); MARINGA (A835, 74 km)."
+  ],
+  "dados": [
+    {
+      "codigo": "A869",
+      "nome": "CIDADE GAUCHA",
+      "uf": "PR",
+      "situacao": "Operante",
+      "lat": -23.35916666,
+      "lon": -52.93194443,
+      "altitude": 365.79,
+      "inicio": "2008-03-10",
+      "distanciaKm": 48
+    },
+    {
+      "codigo": "A825",
+      "nome": "GOIOERE",
+      "uf": "PR",
+      "situacao": "Operante",
+      "lat": -24.18388888,
+      "lon": -53.04888888,
+      "altitude": 481,
+      "inicio": "2006-10-18",
+      "distanciaKm": 73
+    },
+    {
+      "codigo": "A835",
+      "nome": "MARINGA",
+      "uf": "PR",
+      "situacao": "Operante",
+      "lat": -23.40527777,
+      "lon": -51.93277777,
+      "altitude": 548.51,
+      "inicio": "2006-11-20",
+      "distanciaKm": 74
+    }
+  ],
+  "fontes": [
+    {
+      "nome": "INMET — Estações meteorológicas",
+      "url": "https://portal.inmet.gov.br/",
+      "tipo": "observacao"
+    }
+  ],
+  "limitacoes": [
+    "Os dados medidos das estações exigem token do INMET (INMET_TOKEN), ainda não configurado."
+  ],
+  "geradoEm": "2026-11-15T07:49:49.455Z"
+}

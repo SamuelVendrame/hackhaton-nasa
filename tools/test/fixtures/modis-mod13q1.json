@@ -1,0 +1,103 @@
+{
+ "xllcorner": "-5351725.25",
+ "yllcorner": "-2635554.35",
+ "cellsize": 231.656358264,
+ "nrows": 1,
+ "ncols": 1,
+ "band": "all",
+ "latitude": -23.7,
+ "longitude": -52.56,
+ "header": "https://modisrest.ornl.gov/rst/api/v1/MOD13Q1/subset?latitude=-23.70&longitude=-52.56&startDate=A2026257&endDate=A2026305&kmAboveBelow=0&kmLeftRight=0",
+ "subset": [
+  {
+   "modis_date": "A2026257",
+   "calendar_date": "2026-09-14",
+   "band": "250m_16_days_pixel_reliability",
+   "tile": "h13v11",
+   "proc_date": "2026277222229",
+   "data": [
+    0
+   ]
+  },
+  {
+   "modis_date": "A2026257",
+   "calendar_date": "2026-09-14",
+   "band": "250m_16_days_NDVI",
+   "tile": "h13v11",
+   "proc_date": "2026277222229",
+   "data": [
+    3431
+   ]
+  },
+  {
+   "modis_date": "A2026257",
+   "calendar_date": "2026-09-14",
+   "band": "250m_16_days_EVI",
+   "tile": "h13v11",
+   "proc_date": "2026277222229",
+   "data": [
+    1839
+   ]
+  },
+  {
+   "modis_date": "A2026273",
+   "calendar_date": "2026-09-30",
+   "band": "250m_16_days_pixel_reliability",
+   "tile": "h13v11",
+   "proc_date": "2026289235553",
+   "data": [
+    0
+   ]
+  },
+  {
+   "modis_date": "A2026273",
+   "calendar_date": "2026-09-30",
+   "band": "250m_16_days_NDVI",
+   "tile": "h13v11",
+   "proc_date": "2026289235553",
+   "data": [
+    3800
+   ]
+  },
+  {
+   "modis_date": "A2026273",
+   "calendar_date": "2026-09-30",
+   "band": "250m_16_days_EVI",
+   "tile": "h13v11",
+   "proc_date": "2026289235553",
+   "data": [
+    2164
+   ]
+  },
+  {
+   "modis_date": "A2026289",
+   "calendar_date": "2026-10-16",
+   "band": "250m_16_days_pixel_reliability",
+   "tile": "h13v11",
+   "proc_date": "2026307125811",
+   "data": [
+    0
+   ]
+  },
+  {
+   "modis_date": "A2026289",
+   "calendar_date": "2026-10-16",
+   "band": "250m_16_days_NDVI",
+   "tile": "h13v11",
+   "proc_date": "2026307125811",
+   "data": [
+    4889
+   ]
+  },
+  {
+   "modis_date": "A2026289",
+   "calendar_date": "2026-10-16",
+   "band": "250m_16_days_EVI",
+   "tile": "h13v11",
+   "proc_date": "2026307125811",
+   "data": [
+    3433
+   ]
+  }
+ ]
+}

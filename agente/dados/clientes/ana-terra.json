@@ -1,0 +1,32 @@
+{
+  "id": "ana-terra",
+  "nome": "Ana Terra",
+  "comoChamar": "Ana",
+  "local": {
+    "lat": -23.7,
+    "lon": -52.56,
+    "municipio": "Cianorte",
+    "uf": "PR",
+    "pontoDoTalhao": true
+  },
+  "propriedade": {
+    "areaHa": 60,
+    "irrigacao": false,
+    "culturaAtual": "soja",
+    "historicoPlantios": [
+      "milho-safrinha",
+      "trigo",
+      "soja"
+    ],
+    "cooperativa": "Cocamar"
+  },
+  "comunicacao": {
+    "nivelTecnico": "tecnico",
+    "tamanhoResposta": "curta",
+    "formalidade": "informal",
+    "expressoes": []
+  },
+  "observacoes": [
+    "Pretende plantar trigo em abril, depois da soja atual"
+  ]
+}

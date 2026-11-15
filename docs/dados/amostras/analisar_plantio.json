@@ -1,0 +1,1057 @@
+{
+  "ferramenta": "analisar_plantio",
+  "local": {
+    "cep": "87209000",
+    "municipio": "Cianorte",
+    "uf": "PR",
+    "ibge": "4105508",
+    "lat": -23.66333,
+    "lon": -52.605,
+    "precisao": "cep"
+  },
+  "periodo": {
+    "inicio": "2026-12-15",
+    "fim": "2027-05-04"
+  },
+  "resumo": [
+    "Análise de Soja plantada em 2026-12-15 (ciclo até 2027-05-04) em Cianorte.",
+    "A favor: Chuva esperada no ciclo (1073 mm) cobre a necessidade de Soja (450–800 mm), com sobra; atenção a doenças em períodos muito úmidos.",
+    "Atenção: A chuva da janela tende a ficar acima do normal da região (pela previsão sazonal, sem correção de viés).",
+    "Atenção: Calor: cerca de 16 dia(s) com máxima ≥ 35 °C no ciclo (limite de estresse de Soja).",
+    "A favor: Risco de geada baixo na janela do ciclo.",
+    "A favor: ZARC indica o plantio nesta data, com risco mínimo de 20%.",
+    "A favor: Preço recebido no PR em alta nos últimos 3 meses (16.7%).",
+    "A favor: Soja é uma das principais culturas do município (34% da área), com estrutura de compra e assistência na região.",
+    "A favor: Soja (leguminosa) após Batata (solanácea) alterna famílias, o que ajuda a quebrar ciclos de pragas e doenças.",
+    "Atenção: Problemas de solo em comum entre Batata e Soja: nematoide. Vale checar histórico desses problemas na área.",
+    "A favor: Soja fixa nitrogênio do ar, repondo parte do que Batata extraiu."
+  ],
+  "dados": {
+    "cultura": "Soja",
+    "dataPlantio": "2026-12-15",
+    "sinais": [
+      {
+        "tipo": "favoravel",
+        "texto": "Chuva esperada no ciclo (1073 mm) cobre a necessidade de Soja (450–800 mm), com sobra; atenção a doenças em períodos muito úmidos."
+      },
+      {
+        "tipo": "atencao",
+        "texto": "A chuva da janela tende a ficar acima do normal da região (pela previsão sazonal, sem correção de viés)."
+      },
+      {
+        "tipo": "atencao",
+        "texto": "Calor: cerca de 16 dia(s) com máxima ≥ 35 °C no ciclo (limite de estresse de Soja)."
+      },
+      {
+        "tipo": "favoravel",
+        "texto": "Risco de geada baixo na janela do ciclo."
+      },
+      {
+        "tipo": "favoravel",
+        "texto": "ZARC indica o plantio nesta data, com risco mínimo de 20%."
+      },
+      {
+        "tipo": "favoravel",
+        "texto": "Preço recebido no PR em alta nos últimos 3 meses (16.7%)."
+      },
+      {
+        "tipo": "favoravel",
+        "texto": "Soja é uma das principais culturas do município (34% da área), com estrutura de compra e assistência na região."
+      },
+      {
+        "tipo": "favoravel",
+        "texto": "Soja (leguminosa) após Batata (solanácea) alterna famílias, o que ajuda a quebrar ciclos de pragas e doenças."
+      },
+      {
+        "tipo": "atencao",
+        "texto": "Problemas de solo em comum entre Batata e Soja: nematoide. Vale checar histórico desses problemas na área."
+      },
+      {
+        "tipo": "favoravel",
+        "texto": "Soja fixa nitrogênio do ar, repondo parte do que Batata extraiu."
+      }
+    ],
+    "placar": {
+      "favoraveis": 7,
+      "atencao": 3
+    },
+    "evidencias": {
+      "clima": {
+        "resumo": [
+          "Base dos dados da janela: 141 dia(s) de previsao sazonal.",
+          "Temperatura média esperada: mínimas de 21.1 °C e máximas de 29 °C (normal: 20.3 / 31.2 °C).",
+          "Chuva: 1073 mm contra normal de 649 mm — tendência acima do normal (modelo sazonal).",
+          "Geada: em 0/19 anos houve risco nesta janela.",
+          "Calor ≥ 35 °C: média histórica de 16.3 dia(s) por ano na janela."
+        ],
+        "limitacoes": [
+          "Dados em grade (~50 km no histórico NASA POWER): representam a região, não o talhão; baixadas e espigões podem ser mais frios ou quentes.",
+          "Previsão sazonal (além de 16 dias) indica tendência, não o tempo de cada dia: use totais e médias do período, nunca datas específicas.",
+          "A previsão sazonal é a saída bruta do modelo ECMWF, sem correção de viés; em Cianorte ela tende a ser mais chuvosa e mais fresca que o histórico. Confirme a tendência no boletim sazonal do INMET/CPTEC antes de decisões grandes."
+        ]
+      },
+      "zarc": {
+        "resumo": [
+          "Soja: plantio em 11 a 20/dez está INDICADO pelo ZARC 2026/2027 em 64 de 66 combinações de solo/ciclo, com risco mínimo de 20%. Janelas do ano: 1 a 10/set a 21 ao fim de dez (risco mínimo 20%)."
+        ],
+        "limitacoes": [
+          "Risco do ZARC = probabilidade de perda de até 20%, 30% ou 40% por fatores climáticos, para o tipo de solo (AD1 = menor água disponível … AD6 = maior) e o grupo de ciclo da cultivar.",
+          "O tipo de solo do talhão (classe AD) define qual linha vale; sem a análise, consideramos todas as combinações."
+        ]
+      },
+      "mercado": {
+        "resumo": [
+          "Soja (60 kg): média PR na semana 46-2026 de R$ 136.60 (Umuarama R$ 135.09, Maringá R$ 138.00); tendência de 3 meses: alta (16.7%); contra 1 ano atrás: 13.6%."
+        ],
+        "limitacoes": [
+          "Preço médio recebido pelo produtor no Paraná (mercado disponível). Não é o preço pré-fixado da cooperativa, que precisa vir do produtor ou da cooperativa.",
+          "Tendência passada não garante preço futuro na colheita.",
+          "O DERAL não publica núcleo para Cianorte; usamos Umuarama e Maringá como referência regional."
+        ]
+      },
+      "regiao": {
+        "resumo": [
+          "Em 2025, Cianorte colheu 37252 ha em lavouras. Principais: Cana-de-açúcar (38.2%), Soja (em grão) (34%), Milho (em grão) (13.7%), Mandioca (12.1%), Café (em grão) Total (1.3%).",
+          "Variação de área desde 2021: Cana-de-açúcar -20%, Soja (em grão) +5%, Milho (em grão) -8%, Mandioca +13%, Café (em grão) Total +23%."
+        ],
+        "limitacoes": [
+          "Estatística anual do município inteiro, publicada com cerca de um ano de atraso; não reflete a safra corrente."
+        ]
+      },
+      "solo": {
+        "resumo": [
+          "SoilGrids não tem estimativa para este ponto (comum em área urbana ou corpo d'água). Informe a coordenada do talhão."
+        ],
+        "limitacoes": [
+          "Sem dado no ponto."
+        ]
+      },
+      "recente": {
+        "resumo": [
+          "Últimos 30 dias (até 2026-11-11): 260 mm de chuva contra normal de 150 mm (+73%); temperatura -3.4 °C em relação à média.",
+          "Últimos 87 dias: 601 mm contra 332 mm (+81%); temperatura -1.7 °C."
+        ],
+        "limitacoes": [
+          "NASA POWER tem atraso de alguns dias; os últimos dias antes de hoje podem não estar incluídos.",
+          "Dados em grade (~50 km no histórico NASA POWER): representam a região, não o talhão; baixadas e espigões podem ser mais frios ou quentes."
+        ]
+      },
+      "relevo": {
+        "resumo": [
+          "Altitude 533 m, declividade de 2.3% (plano), posição: encosta/meia-encosta (+6 m em relação ao entorno de 1 km)."
+        ],
+        "limitacoes": [
+          "Modelo de elevação de 90 m: suaviza terraços e pequenas depressões dentro do talhão.",
+          "Coordenada do CEP/município: o relevo calculado é o da cidade, não o do talhão."
+        ]
+      }
+    },
+    "detalhes": {
+      "clima": {
+        "temperatura": {
+          "minimaMedia": 21.1,
+          "maximaMedia": 29,
+          "normalMinima": 20.3,
+          "normalMaxima": 31.2,
+          "anomaliaMinima": 0.8,
+          "anomaliaMaxima": -2.2
+        },
+        "chuva": {
+          "totalMm": 1073,
+          "normalMm": 649,
+          "anomaliaPct": 65,
+          "classificacao": "tendência acima do normal (modelo sazonal)",
+          "faixaSazonalMm": {
+            "p10": 821,
+            "p90": 1322
+          },
+          "probabilidadeTercis": {
+            "abaixo": 0,
+            "normal": 0.04,
+            "acima": 0.96
+          },
+          "tercisHistoricosMm": {
+            "inferior": 552,
+            "superior": 733
+          },
+          "diasComChuvaPrevistos": 0,
+          "maiorSequenciaSecaPrevista": 0,
+          "diasChuvaForte": [],
+          "historico": {
+            "mediaMaiorSequenciaSeca": 12.9,
+            "mediaDiasChuvaForte": 0.47
+          }
+        },
+        "geada": {
+          "diasPrevistosComRisco": [],
+          "menorMinimaPrevista": null,
+          "probabilidadeSazonal": 0,
+          "historico": {
+            "anosAnalisados": 19,
+            "anosComRiscoGeada": 0,
+            "anosComGeadaForte": 0,
+            "frequencia": 0,
+            "menorMinimaRegistrada": 5.4,
+            "anos": []
+          }
+        },
+        "calor": {
+          "limiar": 35,
+          "diasPrevistosAcimaLimiar": [],
+          "maiorSequenciaPrevista": 0,
+          "maiorMaximaPrevista": null,
+          "diasSazonaisAcimaLimiar_media": 1.8,
+          "historico": {
+            "mediaDiasPorAno": 16.3,
+            "p90DiasPorAno": 42.2,
+            "anosAnalisados": 19
+          }
+        },
+        "cobertura": {
+          "observado": 0,
+          "previsao": 0,
+          "previsao_sazonal": 141,
+          "climatologia": 0
+        },
+        "semanas": [
+          {
+            "inicio": "2026-12-15",
+            "fim": "2026-12-21",
+            "chuvaMm": 73,
+            "tmin": 21,
+            "tmax": 28.5,
+            "origem": "previsao_sazonal"
+          },
+          {
+            "inicio": "2026-12-22",
+            "fim": "2026-12-28",
+            "chuvaMm": 71,
+            "tmin": 21.1,
+            "tmax": 28.7,
+            "origem": "previsao_sazonal"
+          },
+          {
+            "inicio": "2026-12-29",
+            "fim": "2027-01-04",
+            "chuvaMm": 59,
+            "tmin": 21.4,
+            "tmax": 30.1,
+            "origem": "previsao_sazonal"
+          },
+          {
+            "inicio": "2027-01-05",
+            "fim": "2027-01-11",
+            "chuvaMm": 78,
+            "tmin": 21.2,
+            "tmax": 29.9,
+            "origem": "previsao_sazonal"
+          },
+          {
+            "inicio": "2027-01-12",
+            "fim": "2027-01-18",
+            "chuvaMm": 65,
+            "tmin": 21.7,
+            "tmax": 29.9,
+            "origem": "previsao_sazonal"
+          },
+          {
+            "inicio": "2027-01-19",
+            "fim": "2027-01-25",
+            "chuvaMm": 54,
+            "tmin": 22,
+            "tmax": 30.4,
+            "origem": "previsao_sazonal"
+          },
+          {
+            "inicio": "2027-01-26",
+            "fim": "2027-02-01",
+            "chuvaMm": 51,
+            "tmin": 22.2,
+            "tmax": 30.7,
+            "origem": "previsao_sazonal"
+          },
+          {
+            "inicio": "2027-02-02",
+            "fim": "2027-02-08",
+            "chuvaMm": 56,
+            "tmin": 22.2,
+            "tmax": 30.8,
+            "origem": "previsao_sazonal"
+          },
+          {
+            "inicio": "2027-02-09",
+            "fim": "2027-02-15",
+            "chuvaMm": 49,
+            "tmin": 22,
+            "tmax": 30.6,
+            "origem": "previsao_sazonal"
+          },
+          {
+            "inicio": "2027-02-16",
+            "fim": "2027-02-22",
+            "chuvaMm": 49,
+            "tmin": 21.8,
+            "tmax": 30.1,
+            "origem": "previsao_sazonal"
+          },
+          {
+            "inicio": "2027-02-23",
+            "fim": "2027-03-01",
+            "chuvaMm": 57,
+            "tmin": 21.6,
+            "tmax": 30.1,
+            "origem": "previsao_sazonal"
+          },
+          {
+            "inicio": "2027-03-02",
+            "fim": "2027-03-08",
+            "chuvaMm": 38,
+            "tmin": 20.7,
+            "tmax": 30.1,
+            "origem": "previsao_sazonal"
+          },
+          {
+            "inicio": "2027-03-09",
+            "fim": "2027-03-15",
+            "chuvaMm": 37,
+            "tmin": 21.4,
+            "tmax": 30.1,
+            "origem": "previsao_sazonal"
+          },
+          {
+            "inicio": "2027-03-16",
+            "fim": "2027-03-22",
+            "chuvaMm": 55,
+            "tmin": 20.8,
+            "tmax": 29.7,
+            "origem": "previsao_sazonal"
+          },
+          {
+            "inicio": "2027-03-23",
+            "fim": "2027-03-29",
+            "chuvaMm": 43,
+            "tmin": 20.6,
+            "tmax": 29.8,
+            "origem": "previsao_sazonal"
+          },
+          {
+            "inicio": "2027-03-30",
+            "fim": "2027-04-05",
+            "chuvaMm": 41,
+            "tmin": 19.6,
+            "tmax": 28.3,
+            "origem": "previsao_sazonal"
+          },
+          {
+            "inicio": "2027-04-06",
+            "fim": "2027-04-12",
+            "chuvaMm": 49,
+            "tmin": 19.3,
+            "tmax": 28,
+            "origem": "previsao_sazonal"
+          },
+          {
+            "inicio": "2027-04-13",
+            "fim": "2027-04-19",
+            "chuvaMm": 53,
+            "tmin": 19.1,
+            "tmax": 27.9,
+            "origem": "previsao_sazonal"
+          },
+          {
+            "inicio": "2027-04-20",
+            "fim": "2027-04-26",
+            "chuvaMm": 42,
+            "tmin": 18.2,
+            "tmax": 27.3,
+            "origem": "previsao_sazonal"
+          },
+          {
+            "inicio": "2027-04-27",
+            "fim": "2027-05-03",
+            "chuvaMm": 49,
+            "tmin": 18.1,
+            "tmax": 27.1,
+            "origem": "previsao_sazonal"
+          },
+          {
+            "inicio": "2027-05-04",
+            "fim": "2027-05-04",
+            "chuvaMm": 6,
+            "tmin": 18,
+            "tmax": 26.4,
+            "origem": "previsao_sazonal"
+          }
+        ]
+      },
+      "zarc": {
+        "cultura": "Soja",
+        "safra": "2026/2027",
+        "manejo": "Sequeiro",
+        "filtroSolo": null,
+        "zoneada": true,
+        "avaliacoes": [
+          {
+            "culturaZarc": "Soja",
+            "decendio": 35,
+            "periodoDecendio": "11 a 20/dez",
+            "indicadoNaData": true,
+            "menorRiscoNaData": 20,
+            "combinacoesIndicadasNaData": [
+              {
+                "solo": "AD6",
+                "ciclo": "Grupo I",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM3",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD4",
+                "ciclo": "Grupo I",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM1",
+                "riscoNaData": 30
+              },
+              {
+                "solo": "AD4",
+                "ciclo": "Grupo III",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM2",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD6",
+                "ciclo": "Grupo III",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM2",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD6",
+                "ciclo": "Grupo III",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM1",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD2",
+                "ciclo": "Grupo I",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM4",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD4",
+                "ciclo": "Grupo I",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM2",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD6",
+                "ciclo": "Grupo II",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM4",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD5",
+                "ciclo": "Grupo III",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM1",
+                "riscoNaData": 30
+              },
+              {
+                "solo": "AD2",
+                "ciclo": "Grupo I",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM2",
+                "riscoNaData": 30
+              },
+              {
+                "solo": "AD2",
+                "ciclo": "Grupo II",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM2",
+                "riscoNaData": 30
+              },
+              {
+                "solo": "AD2",
+                "ciclo": "Grupo III",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM2",
+                "riscoNaData": 40
+              },
+              {
+                "solo": "AD6",
+                "ciclo": "Grupo III",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM4",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD3",
+                "ciclo": "Grupo II",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM1",
+                "riscoNaData": 40
+              },
+              {
+                "solo": "AD5",
+                "ciclo": "Grupo I",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM2",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD3",
+                "ciclo": "Grupo I",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM4",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD5",
+                "ciclo": "Grupo I",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM4",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD6",
+                "ciclo": "Grupo I",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM2",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD4",
+                "ciclo": "Grupo III",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM4",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD5",
+                "ciclo": "Grupo I",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM1",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD1",
+                "ciclo": "Grupo I",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM3",
+                "riscoNaData": 30
+              },
+              {
+                "solo": "AD6",
+                "ciclo": "Grupo III",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM3",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD1",
+                "ciclo": "Grupo III",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM3",
+                "riscoNaData": 40
+              },
+              {
+                "solo": "AD5",
+                "ciclo": "Grupo II",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM4",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD1",
+                "ciclo": "Grupo I",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM2",
+                "riscoNaData": 40
+              },
+              {
+                "solo": "AD4",
+                "ciclo": "Grupo I",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM4",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD3",
+                "ciclo": "Grupo I",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM3",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD4",
+                "ciclo": "Grupo III",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM1",
+                "riscoNaData": 40
+              },
+              {
+                "solo": "AD5",
+                "ciclo": "Grupo III",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM4",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD2",
+                "ciclo": "Grupo III",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM3",
+                "riscoNaData": 30
+              },
+              {
+                "solo": "AD5",
+                "ciclo": "Grupo III",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM2",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD3",
+                "ciclo": "Grupo II",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM2",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD1",
+                "ciclo": "Grupo I",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM4",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD6",
+                "ciclo": "Grupo II",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM1",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD2",
+                "ciclo": "Grupo II",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM4",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD5",
+                "ciclo": "Grupo II",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM3",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD4",
+                "ciclo": "Grupo II",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM2",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD6",
+                "ciclo": "Grupo II",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM2",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD1",
+                "ciclo": "Grupo III",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM4",
+                "riscoNaData": 30
+              },
+              {
+                "solo": "AD4",
+                "ciclo": "Grupo I",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM3",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD2",
+                "ciclo": "Grupo III",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM4",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD3",
+                "ciclo": "Grupo II",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM3",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD6",
+                "ciclo": "Grupo I",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM1",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD4",
+                "ciclo": "Grupo II",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM1",
+                "riscoNaData": 30
+              },
+              {
+                "solo": "AD4",
+                "ciclo": "Grupo II",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM3",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD3",
+                "ciclo": "Grupo III",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM2",
+                "riscoNaData": 30
+              },
+              {
+                "solo": "AD6",
+                "ciclo": "Grupo II",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM3",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD3",
+                "ciclo": "Grupo III",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM4",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD5",
+                "ciclo": "Grupo II",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM2",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD1",
+                "ciclo": "Grupo II",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM2",
+                "riscoNaData": 40
+              },
+              {
+                "solo": "AD3",
+                "ciclo": "Grupo I",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM1",
+                "riscoNaData": 40
+              },
+              {
+                "solo": "AD2",
+                "ciclo": "Grupo I",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM3",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD3",
+                "ciclo": "Grupo I",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM2",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD1",
+                "ciclo": "Grupo II",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM4",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD4",
+                "ciclo": "Grupo II",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM4",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD6",
+                "ciclo": "Grupo I",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM4",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD3",
+                "ciclo": "Grupo II",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM4",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD5",
+                "ciclo": "Grupo III",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM3",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD4",
+                "ciclo": "Grupo III",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM3",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD2",
+                "ciclo": "Grupo II",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM3",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD5",
+                "ciclo": "Grupo I",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM3",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD5",
+                "ciclo": "Grupo II",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM1",
+                "riscoNaData": 20
+              },
+              {
+                "solo": "AD1",
+                "ciclo": "Grupo II",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM3",
+                "riscoNaData": 30
+              },
+              {
+                "solo": "AD3",
+                "ciclo": "Grupo III",
+                "manejo": "Sequeiro",
+                "nivelManejo": "NM3",
+                "riscoNaData": 20
+              }
+            ],
+            "totalCombinacoes": 66,
+            "janelasIndicadas": [
+              {
+                "de": "1 a 10/set",
+                "ate": "21 ao fim de dez",
+                "menorRisco": 20
+              }
+            ],
+            "proximosDecendiosIndicados": [
+              {
+                "decendio": 35,
+                "periodo": "11 a 20/dez",
+                "menorRisco": 20,
+                "combinacoesIndicadas": 64
+              },
+              {
+                "decendio": 36,
+                "periodo": "21 ao fim de dez",
+                "menorRisco": 20,
+                "combinacoesIndicadas": 62
+              },
+              {
+                "decendio": 25,
+                "periodo": "1 a 10/set",
+                "menorRisco": 20,
+                "combinacoesIndicadas": 51
+              },
+              {
+                "decendio": 26,
+                "periodo": "11 a 20/set",
+                "menorRisco": 20,
+                "combinacoesIndicadas": 54
+              },
+              {
+                "decendio": 27,
+                "periodo": "21 ao fim de set",
+                "menorRisco": 20,
+                "combinacoesIndicadas": 54
+              },
+              {
+                "decendio": 28,
+                "periodo": "1 a 10/out",
+                "menorRisco": 20,
+                "combinacoesIndicadas": 57
+              }
+            ],
+            "portarias": [
+              "Port.205_de_03-07-2026"
+            ]
+          }
+        ]
+      },
+      "mercado": {
+        "produto": "soja",
+        "itens": [
+          {
+            "produto": "Soja",
+            "unidade": "60 kg",
+            "semana": "46-2026",
+            "periodoSemana": "09/11/2026 a 13/11/2026",
+            "mediaEstadoSemana": 136.5998,
+            "variacaoSemanalPct": 2.49,
+            "regionais": {
+              "Umuarama": 135.09,
+              "Maringá": 138
+            },
+            "tendencia": {
+              "ultimoMes": "OUT/26",
+              "ultimoValor": 135.53,
+              "media3mVsAnteriorPct": 16.7,
+              "vsMesmoMesAnoAnteriorPct": 13.6,
+              "mediaAnoAtual": 119.93,
+              "mediasAnuais": [
+                {
+                  "ano": "Ano/26",
+                  "valor": 119.93
+                },
+                {
+                  "ano": "Ano/25",
+                  "valor": 118.88
+                },
+                {
+                  "ano": "Ano/24",
+                  "valor": 118.56
+                },
+                {
+                  "ano": "Ano/23",
+                  "valor": 134.2
+                },
+                {
+                  "ano": "Ano/22",
+                  "valor": 172.75
+                }
+              ],
+              "direcao": "alta"
+            },
+            "serieMensal": [
+              {
+                "mes": "OUT/26",
+                "valor": 135.5266
+              },
+              {
+                "mes": "SET/26",
+                "valor": 137.7654
+              },
+              {
+                "mes": "AGO/26",
+                "valor": 127.3044
+              },
+              {
+                "mes": "JUL/26",
+                "valor": 118.9543
+              },
+              {
+                "mes": "JUN/26",
+                "valor": 112.472
+              },
+              {
+                "mes": "MAI/26",
+                "valor": 111.812
+              },
+              {
+                "mes": "ABR/26",
+                "valor": 112.1398
+              },
+              {
+                "mes": "MAR/26",
+                "valor": 115.093
+              },
+              {
+                "mes": "FEV/26",
+                "valor": 113.0928
+              },
+              {
+                "mes": "JAN/26",
+                "valor": 115.1574
+              },
+              {
+                "mes": "DEZ/25",
+                "valor": 120.4234
+              },
+              {
+                "mes": "NOV/25",
+                "valor": 121.8871
+              },
+              {
+                "mes": "OUT/25",
+                "valor": 119.3405
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "fontes": [
+    {
+      "nome": "NASA POWER (MERRA-2/GEOS) — histórico 2006–2025",
+      "url": "https://power.larc.nasa.gov/",
+      "resolucao": "~50 km",
+      "tipo": "reanalise"
+    },
+    {
+      "nome": "Open-Meteo Seasonal (ECMWF SEAS5, ensemble)",
+      "url": "https://open-meteo.com/en/docs/seasonal-forecast-api",
+      "resolucao": "~36 km",
+      "tipo": "previsao_sazonal"
+    },
+    {
+      "nome": "ZARC — Tábua de Risco (MAPA)",
+      "url": "https://dados.agricultura.gov.br/dataset/tabua-de-risco-zoneamento-agricola-de-risco-climatico",
+      "tipo": "norma_oficial"
+    },
+    {
+      "nome": "SEAB/DERAL — Preços recebidos pelos produtores (PR)",
+      "url": "https://www.agricultura.pr.gov.br/deral/precos",
+      "tipo": "estatistica_oficial"
+    },
+    {
+      "nome": "IBGE — Produção Agrícola Municipal (SIDRA, tabela 5457)",
+      "url": "https://sidra.ibge.gov.br/tabela/5457",
+      "tipo": "estatistica_oficial"
+    },
+    {
+      "nome": "ISRIC SoilGrids 2.0",
+      "url": "https://soilgrids.org/",
+      "resolucao": "250 m",
+      "tipo": "estimativa"
+    },
+    {
+      "nome": "NASA POWER (MERRA-2/GEOS)",
+      "url": "https://power.larc.nasa.gov/",
+      "resolucao": "~50 km",
+      "tipo": "reanalise"
+    },
+    {
+      "nome": "Copernicus DEM GLO-90 (via Open-Meteo)",
+      "url": "https://open-meteo.com/en/docs/elevation-api",
+      "resolucao": "~90 m",
+      "tipo": "observacao"
+    }
+  ],
+  "limitacoes": [
+    "Análise de solo do talhão não informada: fertilidade e correção não avaliadas.",
+    "Preço pré-fixado da cooperativa não informado."
+  ],
+  "geradoEm": "2026-11-15T07:49:53.823Z"
+}

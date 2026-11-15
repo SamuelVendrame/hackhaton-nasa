@@ -1,0 +1,542 @@
+{
+  "ferramenta": "janela_plantio",
+  "local": {
+    "cep": "87209000",
+    "municipio": "Cianorte",
+    "uf": "PR",
+    "ibge": "4105508",
+    "lat": -23.66333,
+    "lon": -52.605,
+    "precisao": "cep"
+  },
+  "resumo": [
+    "Soja: plantio em 11 a 20/dez está INDICADO pelo ZARC 2026/2027 em 64 de 66 combinações de solo/ciclo, com risco mínimo de 20%. Janelas do ano: 1 a 10/set a 21 ao fim de dez (risco mínimo 20%)."
+  ],
+  "dados": {
+    "cultura": "Soja",
+    "safra": "2026/2027",
+    "manejo": "Sequeiro",
+    "filtroSolo": null,
+    "zoneada": true,
+    "avaliacoes": [
+      {
+        "culturaZarc": "Soja",
+        "decendio": 35,
+        "periodoDecendio": "11 a 20/dez",
+        "indicadoNaData": true,
+        "menorRiscoNaData": 20,
+        "combinacoesIndicadasNaData": [
+          {
+            "solo": "AD6",
+            "ciclo": "Grupo I",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM3",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD4",
+            "ciclo": "Grupo I",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM1",
+            "riscoNaData": 30
+          },
+          {
+            "solo": "AD4",
+            "ciclo": "Grupo III",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM2",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD6",
+            "ciclo": "Grupo III",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM2",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD6",
+            "ciclo": "Grupo III",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM1",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD2",
+            "ciclo": "Grupo I",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM4",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD4",
+            "ciclo": "Grupo I",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM2",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD6",
+            "ciclo": "Grupo II",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM4",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD5",
+            "ciclo": "Grupo III",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM1",
+            "riscoNaData": 30
+          },
+          {
+            "solo": "AD2",
+            "ciclo": "Grupo I",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM2",
+            "riscoNaData": 30
+          },
+          {
+            "solo": "AD2",
+            "ciclo": "Grupo II",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM2",
+            "riscoNaData": 30
+          },
+          {
+            "solo": "AD2",
+            "ciclo": "Grupo III",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM2",
+            "riscoNaData": 40
+          },
+          {
+            "solo": "AD6",
+            "ciclo": "Grupo III",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM4",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD3",
+            "ciclo": "Grupo II",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM1",
+            "riscoNaData": 40
+          },
+          {
+            "solo": "AD5",
+            "ciclo": "Grupo I",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM2",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD3",
+            "ciclo": "Grupo I",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM4",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD5",
+            "ciclo": "Grupo I",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM4",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD6",
+            "ciclo": "Grupo I",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM2",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD4",
+            "ciclo": "Grupo III",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM4",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD5",
+            "ciclo": "Grupo I",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM1",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD1",
+            "ciclo": "Grupo I",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM3",
+            "riscoNaData": 30
+          },
+          {
+            "solo": "AD6",
+            "ciclo": "Grupo III",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM3",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD1",
+            "ciclo": "Grupo III",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM3",
+            "riscoNaData": 40
+          },
+          {
+            "solo": "AD5",
+            "ciclo": "Grupo II",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM4",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD1",
+            "ciclo": "Grupo I",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM2",
+            "riscoNaData": 40
+          },
+          {
+            "solo": "AD4",
+            "ciclo": "Grupo I",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM4",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD3",
+            "ciclo": "Grupo I",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM3",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD4",
+            "ciclo": "Grupo III",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM1",
+            "riscoNaData": 40
+          },
+          {
+            "solo": "AD5",
+            "ciclo": "Grupo III",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM4",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD2",
+            "ciclo": "Grupo III",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM3",
+            "riscoNaData": 30
+          },
+          {
+            "solo": "AD5",
+            "ciclo": "Grupo III",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM2",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD3",
+            "ciclo": "Grupo II",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM2",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD1",
+            "ciclo": "Grupo I",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM4",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD6",
+            "ciclo": "Grupo II",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM1",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD2",
+            "ciclo": "Grupo II",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM4",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD5",
+            "ciclo": "Grupo II",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM3",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD4",
+            "ciclo": "Grupo II",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM2",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD6",
+            "ciclo": "Grupo II",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM2",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD1",
+            "ciclo": "Grupo III",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM4",
+            "riscoNaData": 30
+          },
+          {
+            "solo": "AD4",
+            "ciclo": "Grupo I",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM3",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD2",
+            "ciclo": "Grupo III",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM4",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD3",
+            "ciclo": "Grupo II",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM3",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD6",
+            "ciclo": "Grupo I",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM1",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD4",
+            "ciclo": "Grupo II",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM1",
+            "riscoNaData": 30
+          },
+          {
+            "solo": "AD4",
+            "ciclo": "Grupo II",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM3",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD3",
+            "ciclo": "Grupo III",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM2",
+            "riscoNaData": 30
+          },
+          {
+            "solo": "AD6",
+            "ciclo": "Grupo II",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM3",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD3",
+            "ciclo": "Grupo III",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM4",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD5",
+            "ciclo": "Grupo II",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM2",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD1",
+            "ciclo": "Grupo II",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM2",
+            "riscoNaData": 40
+          },
+          {
+            "solo": "AD3",
+            "ciclo": "Grupo I",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM1",
+            "riscoNaData": 40
+          },
+          {
+            "solo": "AD2",
+            "ciclo": "Grupo I",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM3",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD3",
+            "ciclo": "Grupo I",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM2",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD1",
+            "ciclo": "Grupo II",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM4",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD4",
+            "ciclo": "Grupo II",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM4",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD6",
+            "ciclo": "Grupo I",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM4",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD3",
+            "ciclo": "Grupo II",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM4",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD5",
+            "ciclo": "Grupo III",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM3",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD4",
+            "ciclo": "Grupo III",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM3",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD2",
+            "ciclo": "Grupo II",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM3",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD5",
+            "ciclo": "Grupo I",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM3",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD5",
+            "ciclo": "Grupo II",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM1",
+            "riscoNaData": 20
+          },
+          {
+            "solo": "AD1",
+            "ciclo": "Grupo II",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM3",
+            "riscoNaData": 30
+          },
+          {
+            "solo": "AD3",
+            "ciclo": "Grupo III",
+            "manejo": "Sequeiro",
+            "nivelManejo": "NM3",
+            "riscoNaData": 20
+          }
+        ],
+        "totalCombinacoes": 66,
+        "janelasIndicadas": [
+          {
+            "de": "1 a 10/set",
+            "ate": "21 ao fim de dez",
+            "menorRisco": 20
+          }
+        ],
+        "proximosDecendiosIndicados": [
+          {
+            "decendio": 35,
+            "periodo": "11 a 20/dez",
+            "menorRisco": 20,
+            "combinacoesIndicadas": 64
+          },
+          {
+            "decendio": 36,
+            "periodo": "21 ao fim de dez",
+            "menorRisco": 20,
+            "combinacoesIndicadas": 62
+          },
+          {
+            "decendio": 25,
+            "periodo": "1 a 10/set",
+            "menorRisco": 20,
+            "combinacoesIndicadas": 51
+          },
+          {
+            "decendio": 26,
+            "periodo": "11 a 20/set",
+            "menorRisco": 20,
+            "combinacoesIndicadas": 54
+          },
+          {
+            "decendio": 27,
+            "periodo": "21 ao fim de set",
+            "menorRisco": 20,
+            "combinacoesIndicadas": 54
+          },
+          {
+            "decendio": 28,
+            "periodo": "1 a 10/out",
+            "menorRisco": 20,
+            "combinacoesIndicadas": 57
+          }
+        ],
+        "portarias": [
+          "Port.205_de_03-07-2026"
+        ]
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "nome": "ZARC — Tábua de Risco (MAPA)",
+      "url": "https://dados.agricultura.gov.br/dataset/tabua-de-risco-zoneamento-agricola-de-risco-climatico",
+      "tipo": "norma_oficial"
+    }
+  ],
+  "limitacoes": [
+    "Risco do ZARC = probabilidade de perda de até 20%, 30% ou 40% por fatores climáticos, para o tipo de solo (AD1 = menor água disponível … AD6 = maior) e o grupo de ciclo da cultivar.",
+    "O tipo de solo do talhão (classe AD) define qual linha vale; sem a análise, consideramos todas as combinações."
+  ],
+  "geradoEm": "2026-11-15T07:49:48.481Z"
+}

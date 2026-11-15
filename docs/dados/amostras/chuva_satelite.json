@@ -1,0 +1,176 @@
+{
+  "ferramenta": "chuva_satelite",
+  "local": {
+    "lat": -23.7,
+    "lon": -52.56,
+    "precisao": "talhao",
+    "ibge": "4105508",
+    "municipio": "Cianorte",
+    "uf": "PR"
+  },
+  "periodo": {
+    "inicio": "2026-10-16",
+    "fim": "2026-11-14"
+  },
+  "resumo": [
+    "Satélite GPM (IMERG), 29 de 30 dias até 2026-11-14: 173 mm, contra normal de 142 mm (+22%). 11 dias com chuva; maior sequência seca de 6 dias.",
+    "Maior chuva diária: 65 mm em 2026-11-02 (1 dia(s) ≥ 50 mm)."
+  ],
+  "dados": {
+    "diasComDado": 29,
+    "diasNaJanela": 30,
+    "totalMm": 173,
+    "normalMm": 142,
+    "anomaliaPct": 22,
+    "diasComChuva": 11,
+    "diasChuvaForte": 1,
+    "maiorSequenciaSecaDias": 6,
+    "maiorChuva": {
+      "data": "2026-11-02",
+      "mm": 65
+    },
+    "conferenciaPower": null,
+    "serie": [
+      {
+        "data": "2026-10-16",
+        "mm": 0
+      },
+      {
+        "data": "2026-10-17",
+        "mm": 0
+      },
+      {
+        "data": "2026-10-18",
+        "mm": 0
+      },
+      {
+        "data": "2026-10-19",
+        "mm": 0
+      },
+      {
+        "data": "2026-10-20",
+        "mm": 0
+      },
+      {
+        "data": "2026-10-21",
+        "mm": 8.8
+      },
+      {
+        "data": "2026-10-22",
+        "mm": 26
+      },
+      {
+        "data": "2026-10-23",
+        "mm": 5.3
+      },
+      {
+        "data": "2026-10-24",
+        "mm": 1.2
+      },
+      {
+        "data": "2026-10-25",
+        "mm": 7.2
+      },
+      {
+        "data": "2026-10-26",
+        "mm": 0
+      },
+      {
+        "data": "2026-10-27",
+        "mm": 0
+      },
+      {
+        "data": "2026-10-28",
+        "mm": 4.4
+      },
+      {
+        "data": "2026-10-29",
+        "mm": 6.8
+      },
+      {
+        "data": "2026-10-30",
+        "mm": 0
+      },
+      {
+        "data": "2026-10-31",
+        "mm": 0
+      },
+      {
+        "data": "2026-11-01",
+        "mm": 7.2
+      },
+      {
+        "data": "2026-11-02",
+        "mm": 65.5
+      },
+      {
+        "data": "2026-11-03",
+        "mm": 0.2
+      },
+      {
+        "data": "2026-11-04",
+        "mm": 0
+      },
+      {
+        "data": "2026-11-05",
+        "mm": 11.2
+      },
+      {
+        "data": "2026-11-06",
+        "mm": 0.6
+      },
+      {
+        "data": "2026-11-07",
+        "mm": 28.3
+      },
+      {
+        "data": "2026-11-08",
+        "mm": 0
+      },
+      {
+        "data": "2026-11-09",
+        "mm": 0
+      },
+      {
+        "data": "2026-11-10",
+        "mm": 0
+      },
+      {
+        "data": "2026-11-11",
+        "mm": 0
+      },
+      {
+        "data": "2026-11-12",
+        "mm": 0
+      },
+      {
+        "data": "2026-11-13",
+        "mm": 0
+      },
+      {
+        "data": "2026-11-14",
+        "mm": null
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "nome": "NASA GPM IMERG Late diário (GPM_3IMERGDL v07) via GES DISC OPeNDAP",
+      "url": "https://disc.gsfc.nasa.gov/datasets/GPM_3IMERGDL_07/summary",
+      "resolucao": "0,1° (~10 km)",
+      "tipo": "observacao"
+    },
+    {
+      "nome": "NASA POWER (MERRA-2/GEOS)",
+      "url": "https://power.larc.nasa.gov/",
+      "resolucao": "~50 km",
+      "tipo": "reanalise"
+    }
+  ],
+  "limitacoes": [
+    "Estimativa por satélite em pixel de ~10 km: chuva de pancada isolada pode não aparecer, ou aparecer no vizinho.",
+    "Produto 'Late' (sai em ~14 h); a versão final calibrada com pluviômetros chega ~3 meses depois.",
+    "Pluviômetro na propriedade é a melhor referência; se o produtor tiver, vale preferir."
+  ],
+  "geradoEm": "2026-11-15T07:50:11.364Z"
+}

@@ -1,0 +1,106 @@
+{
+  "ferramenta": "resumo_periodico",
+  "local": {
+    "cep": "87209000",
+    "municipio": "Cianorte",
+    "uf": "PR",
+    "ibge": "4105508",
+    "lat": -23.66333,
+    "lon": -52.605,
+    "precisao": "cep"
+  },
+  "periodo": {
+    "inicio": "2026-11-15",
+    "fim": "2026-12-14"
+  },
+  "resumo": [
+    "Próximos 30 dias: 245 mm de chuva (acima do normal), mínimas médias de 20.6 °C e máximas de 28.2 °C.",
+    "Sem eventos extremos previstos.",
+    "Últimos 30 dias (até 2026-11-11): 260 mm de chuva contra normal de 150 mm (+73%); temperatura -3.4 °C em relação à média."
+  ],
+  "dados": {
+    "tipo": "mensal",
+    "semanas": [
+      {
+        "inicio": "2026-11-15",
+        "fim": "2026-11-21",
+        "chuvaMm": 27,
+        "tmin": 19.7,
+        "tmax": 30.4,
+        "origem": "previsao"
+      },
+      {
+        "inicio": "2026-11-22",
+        "fim": "2026-11-28",
+        "chuvaMm": 102,
+        "tmin": 19.6,
+        "tmax": 29.7,
+        "origem": "previsao"
+      },
+      {
+        "inicio": "2026-11-29",
+        "fim": "2026-12-05",
+        "chuvaMm": 42,
+        "tmin": 19.4,
+        "tmax": 28.4,
+        "origem": "previsao+previsao_sazonal"
+      },
+      {
+        "inicio": "2026-12-06",
+        "fim": "2026-12-12",
+        "chuvaMm": 55,
+        "tmin": 20.2,
+        "tmax": 28.8,
+        "origem": "previsao_sazonal"
+      },
+      {
+        "inicio": "2026-12-13",
+        "fim": "2026-12-14",
+        "chuvaMm": 19,
+        "tmin": 20.9,
+        "tmax": 28.4,
+        "origem": "previsao_sazonal"
+      }
+    ],
+    "destaques": [],
+    "temperatura": {
+      "minimaMedia": 20.6,
+      "maximaMedia": 28.2,
+      "normalMinima": 20.4,
+      "normalMaxima": 32.4,
+      "anomaliaMinima": 0.3,
+      "anomaliaMaxima": -4.2
+    },
+    "chuva": {
+      "totalMm": 245,
+      "classe": "acima do normal",
+      "anomaliaPct": 66
+    }
+  },
+  "fontes": [
+    {
+      "nome": "NASA POWER (MERRA-2/GEOS) — histórico 2006–2025",
+      "url": "https://power.larc.nasa.gov/",
+      "resolucao": "~50 km",
+      "tipo": "reanalise"
+    },
+    {
+      "nome": "Open-Meteo Forecast (melhor combinação de modelos)",
+      "url": "https://open-meteo.com/en/docs",
+      "resolucao": "~2–11 km",
+      "tipo": "previsao"
+    },
+    {
+      "nome": "Open-Meteo Seasonal (ECMWF SEAS5, ensemble)",
+      "url": "https://open-meteo.com/en/docs/seasonal-forecast-api",
+      "resolucao": "~36 km",
+      "tipo": "previsao_sazonal"
+    }
+  ],
+  "limitacoes": [
+    "Dados em grade (~50 km no histórico NASA POWER): representam a região, não o talhão; baixadas e espigões podem ser mais frios ou quentes.",
+    "Previsão sazonal (além de 16 dias) indica tendência, não o tempo de cada dia: use totais e médias do período, nunca datas específicas.",
+    "A previsão sazonal é a saída bruta do modelo ECMWF, sem correção de viés; em Cianorte ela tende a ser mais chuvosa e mais fresca que o histórico. Confirme a tendência no boletim sazonal do INMET/CPTEC antes de decisões grandes."
+  ],
+  "geradoEm": "2026-11-15T07:50:08.191Z"
+}

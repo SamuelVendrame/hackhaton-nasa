@@ -1,0 +1,129 @@
+{
+  "ferramenta": "precos_mercado",
+  "local": {
+    "cep": "87209000",
+    "municipio": "Cianorte",
+    "uf": "PR",
+    "ibge": "4105508",
+    "lat": -23.66333,
+    "lon": -52.605,
+    "precisao": "cep"
+  },
+  "resumo": [
+    "Soja (60 kg): média PR na semana 46-2026 de R$ 136.60 (Umuarama R$ 135.09, Maringá R$ 138.00); tendência de 3 meses: alta (16.7%); contra 1 ano atrás: 13.6%."
+  ],
+  "dados": {
+    "produto": "soja",
+    "itens": [
+      {
+        "produto": "Soja",
+        "unidade": "60 kg",
+        "semana": "46-2026",
+        "periodoSemana": "09/11/2026 a 13/11/2026",
+        "mediaEstadoSemana": 136.5998,
+        "variacaoSemanalPct": 2.49,
+        "regionais": {
+          "Umuarama": 135.09,
+          "Maringá": 138
+        },
+        "tendencia": {
+          "ultimoMes": "OUT/26",
+          "ultimoValor": 135.53,
+          "media3mVsAnteriorPct": 16.7,
+          "vsMesmoMesAnoAnteriorPct": 13.6,
+          "mediaAnoAtual": 119.93,
+          "mediasAnuais": [
+            {
+              "ano": "Ano/26",
+              "valor": 119.93
+            },
+            {
+              "ano": "Ano/25",
+              "valor": 118.88
+            },
+            {
+              "ano": "Ano/24",
+              "valor": 118.56
+            },
+            {
+              "ano": "Ano/23",
+              "valor": 134.2
+            },
+            {
+              "ano": "Ano/22",
+              "valor": 172.75
+            }
+          ],
+          "direcao": "alta"
+        },
+        "serieMensal": [
+          {
+            "mes": "OUT/26",
+            "valor": 135.5266
+          },
+          {
+            "mes": "SET/26",
+            "valor": 137.7654
+          },
+          {
+            "mes": "AGO/26",
+            "valor": 127.3044
+          },
+          {
+            "mes": "JUL/26",
+            "valor": 118.9543
+          },
+          {
+            "mes": "JUN/26",
+            "valor": 112.472
+          },
+          {
+            "mes": "MAI/26",
+            "valor": 111.812
+          },
+          {
+            "mes": "ABR/26",
+            "valor": 112.1398
+          },
+          {
+            "mes": "MAR/26",
+            "valor": 115.093
+          },
+          {
+            "mes": "FEV/26",
+            "valor": 113.0928
+          },
+          {
+            "mes": "JAN/26",
+            "valor": 115.1574
+          },
+          {
+            "mes": "DEZ/25",
+            "valor": 120.4234
+          },
+          {
+            "mes": "NOV/25",
+            "valor": 121.8871
+          },
+          {
+            "mes": "OUT/25",
+            "valor": 119.3405
+          }
+        ]
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "nome": "SEAB/DERAL — Preços recebidos pelos produtores (PR)",
+      "url": "https://www.agricultura.pr.gov.br/deral/precos",
+      "tipo": "estatistica_oficial"
+    }
+  ],
+  "limitacoes": [
+    "Preço médio recebido pelo produtor no Paraná (mercado disponível). Não é o preço pré-fixado da cooperativa, que precisa vir do produtor ou da cooperativa.",
+    "Tendência passada não garante preço futuro na colheita.",
+    "O DERAL não publica núcleo para Cianorte; usamos Umuarama e Maringá como referência regional."
+  ],
+  "geradoEm": "2026-11-15T07:49:52.994Z"
+}

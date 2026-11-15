@@ -1,0 +1,8 @@
+node_modules
+modelos
+trabalhos
+caixa
+tmp
+config/mcp*.json
+dados/clientes/*.conversas.jsonl
+.env

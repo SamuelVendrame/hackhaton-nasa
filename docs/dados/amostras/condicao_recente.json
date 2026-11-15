@@ -1,0 +1,53 @@
+{
+  "ferramenta": "condicao_recente",
+  "local": {
+    "cep": "87209000",
+    "municipio": "Cianorte",
+    "uf": "PR",
+    "ibge": "4105508",
+    "lat": -23.66333,
+    "lon": -52.605,
+    "precisao": "cep"
+  },
+  "periodo": {
+    "inicio": "2026-08-17",
+    "fim": "2026-11-11"
+  },
+  "resumo": [
+    "Últimos 30 dias (até 2026-11-11): 260 mm de chuva contra normal de 150 mm (+73%); temperatura -3.4 °C em relação à média.",
+    "Últimos 87 dias: 601 mm contra 332 mm (+81%); temperatura -1.7 °C."
+  ],
+  "dados": {
+    "ultimos30": {
+      "dias": 30,
+      "de": "2026-10-13",
+      "ate": "2026-11-11",
+      "chuvaMm": 260,
+      "normalMm": 150,
+      "anomaliaChuvaPct": 73,
+      "anomaliaTempC": -3.4
+    },
+    "ultimos90": {
+      "dias": 87,
+      "de": "2026-08-17",
+      "ate": "2026-11-11",
+      "chuvaMm": 601,
+      "normalMm": 332,
+      "anomaliaChuvaPct": 81,
+      "anomaliaTempC": -1.7
+    }
+  },
+  "fontes": [
+    {
+      "nome": "NASA POWER (MERRA-2/GEOS)",
+      "url": "https://power.larc.nasa.gov/",
+      "resolucao": "~50 km",
+      "tipo": "reanalise"
+    }
+  ],
+  "limitacoes": [
+    "NASA POWER tem atraso de alguns dias; os últimos dias antes de hoje podem não estar incluídos.",
+    "Dados em grade (~50 km no histórico NASA POWER): representam a região, não o talhão; baixadas e espigões podem ser mais frios ou quentes."
+  ],
+  "geradoEm": "2026-11-15T07:49:48.411Z"
+}

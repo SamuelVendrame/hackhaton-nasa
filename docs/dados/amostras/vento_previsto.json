@@ -1,0 +1,119 @@
+{
+  "ferramenta": "vento_previsto",
+  "local": {
+    "cep": "87209000",
+    "municipio": "Cianorte",
+    "uf": "PR",
+    "ibge": "4105508",
+    "lat": -23.66333,
+    "lon": -52.605,
+    "precisao": "cep"
+  },
+  "periodo": {
+    "inicio": "2026-11-15",
+    "fim": "2026-11-30"
+  },
+  "resumo": [
+    "Sem rajadas ≥ 60 km/h previstas; maior rajada: 41.8 km/h."
+  ],
+  "dados": {
+    "limiarRajadaKmh": 60,
+    "maiorRajada": 41.8,
+    "maiorVentoMedio": 22.5,
+    "diasRajadaForte": [],
+    "dias": [
+      {
+        "data": "2026-11-15",
+        "ventoKmh": 20.1,
+        "rajadaKmh": 41
+      },
+      {
+        "data": "2026-11-16",
+        "ventoKmh": 8.4,
+        "rajadaKmh": 20.5
+      },
+      {
+        "data": "2026-11-17",
+        "ventoKmh": 17.6,
+        "rajadaKmh": 37.1
+      },
+      {
+        "data": "2026-11-18",
+        "ventoKmh": 12.7,
+        "rajadaKmh": 29.2
+      },
+      {
+        "data": "2026-11-19",
+        "ventoKmh": 12.2,
+        "rajadaKmh": 27.7
+      },
+      {
+        "data": "2026-11-20",
+        "ventoKmh": 12.1,
+        "rajadaKmh": 32.8
+      },
+      {
+        "data": "2026-11-21",
+        "ventoKmh": 8.1,
+        "rajadaKmh": 23.8
+      },
+      {
+        "data": "2026-11-22",
+        "ventoKmh": 14.2,
+        "rajadaKmh": 32.8
+      },
+      {
+        "data": "2026-11-23",
+        "ventoKmh": 17.8,
+        "rajadaKmh": 41.8
+      },
+      {
+        "data": "2026-11-24",
+        "ventoKmh": 9.8,
+        "rajadaKmh": 34.9
+      },
+      {
+        "data": "2026-11-25",
+        "ventoKmh": 12.9,
+        "rajadaKmh": 28.4
+      },
+      {
+        "data": "2026-11-26",
+        "ventoKmh": 19.4,
+        "rajadaKmh": 36.4
+      },
+      {
+        "data": "2026-11-27",
+        "ventoKmh": 16.9,
+        "rajadaKmh": 39.2
+      },
+      {
+        "data": "2026-11-28",
+        "ventoKmh": 14.3,
+        "rajadaKmh": 37.1
+      },
+      {
+        "data": "2026-11-29",
+        "ventoKmh": 22.5,
+        "rajadaKmh": 27
+      },
+      {
+        "data": "2026-11-30",
+        "ventoKmh": null,
+        "rajadaKmh": null
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "nome": "Open-Meteo Forecast (melhor combinação de modelos)",
+      "url": "https://open-meteo.com/en/docs",
+      "resolucao": "~2–11 km",
+      "tipo": "previsao"
+    }
+  ],
+  "limitacoes": [
+    "Rajadas de tempestades isoladas são pouco previsíveis com antecedência; confiar mais nos 3 primeiros dias."
+  ],
+  "geradoEm": "2026-11-15T07:49:44.168Z"
+}

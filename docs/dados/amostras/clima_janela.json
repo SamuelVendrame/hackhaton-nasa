@@ -1,0 +1,256 @@
+{
+  "ferramenta": "clima_janela",
+  "local": {
+    "cep": "87209000",
+    "municipio": "Cianorte",
+    "uf": "PR",
+    "ibge": "4105508",
+    "lat": -23.66333,
+    "lon": -52.605,
+    "precisao": "cep"
+  },
+  "periodo": {
+    "inicio": "2026-12-15",
+    "fim": "2027-04-14"
+  },
+  "resumo": [
+    "Base dos dados da janela: 121 dia(s) de previsao sazonal.",
+    "Temperatura média esperada: mínimas de 21.5 °C e máximas de 29.4 °C (normal: 20.9 / 31.5 °C).",
+    "Chuva: 938 mm contra normal de 596 mm — tendência acima do normal (modelo sazonal).",
+    "Geada: em 0/19 anos houve risco nesta janela.",
+    "Calor ≥ 34 °C: média histórica de 24.2 dia(s) por ano na janela."
+  ],
+  "dados": {
+    "temperatura": {
+      "minimaMedia": 21.5,
+      "maximaMedia": 29.4,
+      "normalMinima": 20.9,
+      "normalMaxima": 31.5,
+      "anomaliaMinima": 0.6,
+      "anomaliaMaxima": -2.2
+    },
+    "chuva": {
+      "totalMm": 938,
+      "normalMm": 596,
+      "anomaliaPct": 57,
+      "classificacao": "tendência acima do normal (modelo sazonal)",
+      "faixaSazonalMm": {
+        "p10": 720,
+        "p90": 1222
+      },
+      "probabilidadeTercis": {
+        "abaixo": 0,
+        "normal": 0.08,
+        "acima": 0.92
+      },
+      "tercisHistoricosMm": {
+        "inferior": 496,
+        "superior": 678
+      },
+      "diasComChuvaPrevistos": 0,
+      "maiorSequenciaSecaPrevista": 0,
+      "diasChuvaForte": [],
+      "historico": {
+        "mediaMaiorSequenciaSeca": 9.1,
+        "mediaDiasChuvaForte": 0.37
+      }
+    },
+    "geada": {
+      "diasPrevistosComRisco": [],
+      "menorMinimaPrevista": null,
+      "probabilidadeSazonal": 0,
+      "historico": {
+        "anosAnalisados": 19,
+        "anosComRiscoGeada": 0,
+        "anosComGeadaForte": 0,
+        "frequencia": 0,
+        "menorMinimaRegistrada": 9.5,
+        "anos": []
+      }
+    },
+    "calor": {
+      "limiar": 34,
+      "diasPrevistosAcimaLimiar": [],
+      "maiorSequenciaPrevista": 0,
+      "maiorMaximaPrevista": null,
+      "diasSazonaisAcimaLimiar_media": 4.7,
+      "historico": {
+        "mediaDiasPorAno": 24.2,
+        "p90DiasPorAno": 58,
+        "anosAnalisados": 19
+      }
+    },
+    "cobertura": {
+      "observado": 0,
+      "previsao": 0,
+      "previsao_sazonal": 121,
+      "climatologia": 0
+    },
+    "semanas": [
+      {
+        "inicio": "2026-12-15",
+        "fim": "2026-12-21",
+        "chuvaMm": 73,
+        "tmin": 21,
+        "tmax": 28.5,
+        "origem": "previsao_sazonal"
+      },
+      {
+        "inicio": "2026-12-22",
+        "fim": "2026-12-28",
+        "chuvaMm": 71,
+        "tmin": 21.1,
+        "tmax": 28.7,
+        "origem": "previsao_sazonal"
+      },
+      {
+        "inicio": "2026-12-29",
+        "fim": "2027-01-04",
+        "chuvaMm": 59,
+        "tmin": 21.4,
+        "tmax": 30.1,
+        "origem": "previsao_sazonal"
+      },
+      {
+        "inicio": "2027-01-05",
+        "fim": "2027-01-11",
+        "chuvaMm": 78,
+        "tmin": 21.2,
+        "tmax": 29.9,
+        "origem": "previsao_sazonal"
+      },
+      {
+        "inicio": "2027-01-12",
+        "fim": "2027-01-18",
+        "chuvaMm": 65,
+        "tmin": 21.7,
+        "tmax": 29.9,
+        "origem": "previsao_sazonal"
+      },
+      {
+        "inicio": "2027-01-19",
+        "fim": "2027-01-25",
+        "chuvaMm": 54,
+        "tmin": 22,
+        "tmax": 30.4,
+        "origem": "previsao_sazonal"
+      },
+      {
+        "inicio": "2027-01-26",
+        "fim": "2027-02-01",
+        "chuvaMm": 51,
+        "tmin": 22.2,
+        "tmax": 30.7,
+        "origem": "previsao_sazonal"
+      },
+      {
+        "inicio": "2027-02-02",
+        "fim": "2027-02-08",
+        "chuvaMm": 56,
+        "tmin": 22.2,
+        "tmax": 30.8,
+        "origem": "previsao_sazonal"
+      },
+      {
+        "inicio": "2027-02-09",
+        "fim": "2027-02-15",
+        "chuvaMm": 49,
+        "tmin": 22,
+        "tmax": 30.6,
+        "origem": "previsao_sazonal"
+      },
+      {
+        "inicio": "2027-02-16",
+        "fim": "2027-02-22",
+        "chuvaMm": 49,
+        "tmin": 21.8,
+        "tmax": 30.1,
+        "origem": "previsao_sazonal"
+      },
+      {
+        "inicio": "2027-02-23",
+        "fim": "2027-03-01",
+        "chuvaMm": 57,
+        "tmin": 21.6,
+        "tmax": 30.1,
+        "origem": "previsao_sazonal"
+      },
+      {
+        "inicio": "2027-03-02",
+        "fim": "2027-03-08",
+        "chuvaMm": 38,
+        "tmin": 20.7,
+        "tmax": 30.1,
+        "origem": "previsao_sazonal"
+      },
+      {
+        "inicio": "2027-03-09",
+        "fim": "2027-03-15",
+        "chuvaMm": 37,
+        "tmin": 21.4,
+        "tmax": 30.1,
+        "origem": "previsao_sazonal"
+      },
+      {
+        "inicio": "2027-03-16",
+        "fim": "2027-03-22",
+        "chuvaMm": 55,
+        "tmin": 20.8,
+        "tmax": 29.7,
+        "origem": "previsao_sazonal"
+      },
+      {
+        "inicio": "2027-03-23",
+        "fim": "2027-03-29",
+        "chuvaMm": 43,
+        "tmin": 20.6,
+        "tmax": 29.8,
+        "origem": "previsao_sazonal"
+      },
+      {
+        "inicio": "2027-03-30",
+        "fim": "2027-04-05",
+        "chuvaMm": 41,
+        "tmin": 19.6,
+        "tmax": 28.3,
+        "origem": "previsao_sazonal"
+      },
+      {
+        "inicio": "2027-04-06",
+        "fim": "2027-04-12",
+        "chuvaMm": 49,
+        "tmin": 19.3,
+        "tmax": 28,
+        "origem": "previsao_sazonal"
+      },
+      {
+        "inicio": "2027-04-13",
+        "fim": "2027-04-14",
+        "chuvaMm": 15,
+        "tmin": 19.1,
+        "tmax": 27.9,
+        "origem": "previsao_sazonal"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "nome": "NASA POWER (MERRA-2/GEOS) — histórico 2006–2025",
+      "url": "https://power.larc.nasa.gov/",
+      "resolucao": "~50 km",
+      "tipo": "reanalise"
+    },
+    {
+      "nome": "Open-Meteo Seasonal (ECMWF SEAS5, ensemble)",
+      "url": "https://open-meteo.com/en/docs/seasonal-forecast-api",
+      "resolucao": "~36 km",
+      "tipo": "previsao_sazonal"
+    }
+  ],
+  "limitacoes": [
+    "Dados em grade (~50 km no histórico NASA POWER): representam a região, não o talhão; baixadas e espigões podem ser mais frios ou quentes.",
+    "Previsão sazonal (além de 16 dias) indica tendência, não o tempo de cada dia: use totais e médias do período, nunca datas específicas.",
+    "A previsão sazonal é a saída bruta do modelo ECMWF, sem correção de viés; em Cianorte ela tende a ser mais chuvosa e mais fresca que o histórico. Confirme a tendência no boletim sazonal do INMET/CPTEC antes de decisões grandes."
+  ],
+  "geradoEm": "2026-11-15T07:49:43.638Z"
+}

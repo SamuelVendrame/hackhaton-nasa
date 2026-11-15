@@ -1,0 +1,178 @@
+{
+  "ferramenta": "umidade_solo_satelite",
+  "local": {
+    "lat": -23.7,
+    "lon": -52.56,
+    "precisao": "talhao",
+    "ibge": "4105508",
+    "municipio": "Cianorte",
+    "uf": "PR"
+  },
+  "periodo": {
+    "inicio": "2026-10-16",
+    "fim": "2026-11-14"
+  },
+  "resumo": [
+    "Última passagem do satélite SMAP (2026-11-13): umidade de 0.143 m³/m³ na camada superficial (0–5 cm); média dos últimos 30 dias 0.259 m³/m³, tendência estável.",
+    "Comparado à mesma janela em 2025 e 2024: +15%."
+  ],
+  "dados": {
+    "ultimo": {
+      "data": "2026-11-13",
+      "umidade": 0.143,
+      "noPonto": true
+    },
+    "mediaJanela": 0.259,
+    "tendencia": "estável",
+    "diasComPassagem": 11,
+    "diasNaJanela": 30,
+    "mesmaJanelaAnosAnteriores": [
+      {
+        "ano": 2025,
+        "media": 0.261
+      },
+      {
+        "ano": 2024,
+        "media": 0.19
+      }
+    ],
+    "variacaoSobreAnosAnterioresPct": 15,
+    "serie": [
+      {
+        "data": "2026-10-16",
+        "umidade": null
+      },
+      {
+        "data": "2026-10-17",
+        "umidade": 0.307
+      },
+      {
+        "data": "2026-10-18",
+        "umidade": null
+      },
+      {
+        "data": "2026-10-19",
+        "umidade": null
+      },
+      {
+        "data": "2026-10-20",
+        "umidade": 0.19
+      },
+      {
+        "data": "2026-10-21",
+        "umidade": null
+      },
+      {
+        "data": "2026-10-22",
+        "umidade": null
+      },
+      {
+        "data": "2026-10-23",
+        "umidade": null
+      },
+      {
+        "data": "2026-10-24",
+        "umidade": null
+      },
+      {
+        "data": "2026-10-25",
+        "umidade": 0.31
+      },
+      {
+        "data": "2026-10-26",
+        "umidade": null
+      },
+      {
+        "data": "2026-10-27",
+        "umidade": null
+      },
+      {
+        "data": "2026-10-28",
+        "umidade": 0.251
+      },
+      {
+        "data": "2026-10-29",
+        "umidade": null
+      },
+      {
+        "data": "2026-10-30",
+        "umidade": null
+      },
+      {
+        "data": "2026-10-31",
+        "umidade": 0.194
+      },
+      {
+        "data": "2026-11-01",
+        "umidade": null
+      },
+      {
+        "data": "2026-11-02",
+        "umidade": 0.41
+      },
+      {
+        "data": "2026-11-03",
+        "umidade": null
+      },
+      {
+        "data": "2026-11-04",
+        "umidade": null
+      },
+      {
+        "data": "2026-11-05",
+        "umidade": 0.286
+      },
+      {
+        "data": "2026-11-06",
+        "umidade": null
+      },
+      {
+        "data": "2026-11-07",
+        "umidade": null
+      },
+      {
+        "data": "2026-11-08",
+        "umidade": 0.385
+      },
+      {
+        "data": "2026-11-09",
+        "umidade": null
+      },
+      {
+        "data": "2026-11-10",
+        "umidade": 0.223
+      },
+      {
+        "data": "2026-11-11",
+        "umidade": 0.149
+      },
+      {
+        "data": "2026-11-12",
+        "umidade": null
+      },
+      {
+        "data": "2026-11-13",
+        "umidade": 0.143
+      },
+      {
+        "data": "2026-11-14",
+        "umidade": null
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "nome": "NASA SMAP L3 Enhanced (SPL3SMP_E v6) via Harmony",
+      "url": "https://nsidc.org/data/spl3smp_e",
+      "resolucao": "9 km",
+      "tipo": "observacao"
+    }
+  ],
+  "limitacoes": [
+    "Pixel de 9 km e só os primeiros ~5 cm do solo: mostra a tendência da região, não a umidade na raiz do talhão.",
+    "O satélite passa a cada 2 a 3 dias; os dias sem passagem ficam vazios.",
+    "Valores típicos: solo arenoso seco < 0,10 e úmido > 0,25 m³/m³; solo argiloso tem valores mais altos. Compare com anos anteriores, não com um número fixo.",
+    "Comparação com só 2 anos anteriores: indicativa."
+  ],
+  "geradoEm": "2026-11-15T07:50:14.178Z"
+}

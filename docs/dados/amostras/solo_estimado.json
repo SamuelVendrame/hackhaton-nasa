@@ -1,0 +1,235 @@
+{
+  "ferramenta": "solo_estimado",
+  "local": {
+    "cep": "87209000",
+    "municipio": "Cianorte",
+    "uf": "PR",
+    "ibge": "4105508",
+    "lat": -23.7,
+    "lon": -52.56,
+    "precisao": "talhao"
+  },
+  "resumo": [
+    "Solo estimado (0–30 cm): textura média — argila 29.4%, areia 48.3%; pH 5.5; carbono orgânico 24.1 g/kg; CTC 18.6 cmolc/kg."
+  ],
+  "dados": {
+    "profundidade": "0–30 cm (média das camadas)",
+    "argilaPct": 29.4,
+    "areiaPct": 48.3,
+    "silte": 22.4,
+    "ph": 5.5,
+    "carbonoOrganicoGkg": 24.1,
+    "nitrogenioGkg": 2.77,
+    "ctcCmolKg": 18.6,
+    "densidadeKgDm3": 1.22,
+    "classeTextural": "média",
+    "camadas": [
+      {
+        "propriedade": "bdod",
+        "profundidade": "0-5cm",
+        "unidade": "kg/dm³",
+        "media": 1.2,
+        "q05": 0.72,
+        "q95": 1.66
+      },
+      {
+        "propriedade": "bdod",
+        "profundidade": "5-15cm",
+        "unidade": "kg/dm³",
+        "media": 1.23,
+        "q05": 0.83,
+        "q95": 1.74
+      },
+      {
+        "propriedade": "bdod",
+        "profundidade": "15-30cm",
+        "unidade": "kg/dm³",
+        "media": 1.24,
+        "q05": 0.8,
+        "q95": 1.74
+      },
+      {
+        "propriedade": "cec",
+        "profundidade": "0-5cm",
+        "unidade": "cmol(c)/kg",
+        "media": 19,
+        "q05": 2.5,
+        "q95": 59.5
+      },
+      {
+        "propriedade": "cec",
+        "profundidade": "5-15cm",
+        "unidade": "cmol(c)/kg",
+        "media": 19.1,
+        "q05": 2.4,
+        "q95": 60.8
+      },
+      {
+        "propriedade": "cec",
+        "profundidade": "15-30cm",
+        "unidade": "cmol(c)/kg",
+        "media": 17.7,
+        "q05": 2.5,
+        "q95": 59.3
+      },
+      {
+        "propriedade": "clay",
+        "profundidade": "0-5cm",
+        "unidade": "%",
+        "media": 28.9,
+        "q05": 1.9,
+        "q95": 92.6
+      },
+      {
+        "propriedade": "clay",
+        "profundidade": "5-15cm",
+        "unidade": "%",
+        "media": 28.6,
+        "q05": 1.8,
+        "q95": 92.6
+      },
+      {
+        "propriedade": "clay",
+        "profundidade": "15-30cm",
+        "unidade": "%",
+        "media": 30.7,
+        "q05": 1.8,
+        "q95": 93.1
+      },
+      {
+        "propriedade": "nitrogen",
+        "profundidade": "0-5cm",
+        "unidade": "g/kg",
+        "media": 2.89,
+        "q05": 0.7,
+        "q95": 6.9
+      },
+      {
+        "propriedade": "nitrogen",
+        "profundidade": "5-15cm",
+        "unidade": "g/kg",
+        "media": 3.6,
+        "q05": 0.5,
+        "q95": 20.6
+      },
+      {
+        "propriedade": "nitrogen",
+        "profundidade": "15-30cm",
+        "unidade": "g/kg",
+        "media": 1.83,
+        "q05": 0.3,
+        "q95": 4.01
+      },
+      {
+        "propriedade": "phh2o",
+        "profundidade": "0-5cm",
+        "unidade": "-",
+        "media": 5.5,
+        "q05": 4,
+        "q95": 7
+      },
+      {
+        "propriedade": "phh2o",
+        "profundidade": "5-15cm",
+        "unidade": "-",
+        "media": 5.4,
+        "q05": 4,
+        "q95": 7
+      },
+      {
+        "propriedade": "phh2o",
+        "profundidade": "15-30cm",
+        "unidade": "-",
+        "media": 5.5,
+        "q05": 4,
+        "q95": 7
+      },
+      {
+        "propriedade": "sand",
+        "profundidade": "0-5cm",
+        "unidade": "%",
+        "media": 48.2,
+        "q05": 3.9,
+        "q95": 88
+      },
+      {
+        "propriedade": "sand",
+        "profundidade": "5-15cm",
+        "unidade": "%",
+        "media": 49.1,
+        "q05": 3.9,
+        "q95": 89.1
+      },
+      {
+        "propriedade": "sand",
+        "profundidade": "15-30cm",
+        "unidade": "%",
+        "media": 47.5,
+        "q05": 3.9,
+        "q95": 88.4
+      },
+      {
+        "propriedade": "silt",
+        "profundidade": "0-5cm",
+        "unidade": "%",
+        "media": 22.9,
+        "q05": 0.4,
+        "q95": 84.7
+      },
+      {
+        "propriedade": "silt",
+        "profundidade": "5-15cm",
+        "unidade": "%",
+        "media": 22.3,
+        "q05": 0.3,
+        "q95": 84.7
+      },
+      {
+        "propriedade": "silt",
+        "profundidade": "15-30cm",
+        "unidade": "%",
+        "media": 21.9,
+        "q05": 0.4,
+        "q95": 84.4
+      },
+      {
+        "propriedade": "soc",
+        "profundidade": "0-5cm",
+        "unidade": "g/kg",
+        "media": 35.5,
+        "q05": 7.8,
+        "q95": 99.1
+      },
+      {
+        "propriedade": "soc",
+        "profundidade": "5-15cm",
+        "unidade": "g/kg",
+        "media": 21.5,
+        "q05": 5.4,
+        "q95": 49
+      },
+      {
+        "propriedade": "soc",
+        "profundidade": "15-30cm",
+        "unidade": "g/kg",
+        "media": 15.4,
+        "q05": 2.6,
+        "q95": 42.6
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "nome": "ISRIC SoilGrids 2.0",
+      "url": "https://soilgrids.org/",
+      "resolucao": "250 m",
+      "tipo": "estimativa"
+    }
+  ],
+  "limitacoes": [
+    "Estimativa por modelo global em 250 m, não análise do talhão. A análise de solo do produtor sempre prevalece.",
+    "Fertilidade (P, K, saturação de bases, alumínio) não é estimada; só a análise laboratorial informa.",
+    "Modelos globais costumam errar a textura e superestimar o carbono em solos tropicais (no noroeste do PR predominam solos arenosos do Arenito Caiuá); trate como ordem de grandeza."
+  ],
+  "geradoEm": "2026-11-15T07:49:48.811Z"
+}

@@ -1,0 +1,500 @@
+{
+  "ferramenta": "comparar_estrategias",
+  "local": {
+    "cep": "87209000",
+    "municipio": "Cianorte",
+    "uf": "PR",
+    "ibge": "4105508",
+    "lat": -23.66333,
+    "lon": -52.605,
+    "precisao": "cep"
+  },
+  "periodo": {
+    "inicio": "2026-12-15",
+    "fim": "2027-05-04"
+  },
+  "resumo": [
+    "Comparação para plantio em 2026-12-15: Soja (7 a favor, 3 de atenção) · Milho (1ª safra) (8 a favor, 2 de atenção) · Feijão (5 a favor, 5 de atenção).",
+    "Alternativas escolhidas entre as culturas indicadas pelo ZARC na data, priorizando família diferente da cultura anterior."
+  ],
+  "dados": {
+    "dataPlantio": "2026-12-15",
+    "quadro": [
+      {
+        "estrategia": "pretendida/atual",
+        "cultura": "Soja",
+        "favoraveis": 7,
+        "atencao": 3,
+        "sinais": [
+          {
+            "tipo": "favoravel",
+            "texto": "Chuva esperada no ciclo (1073 mm) cobre a necessidade de Soja (450–800 mm), com sobra; atenção a doenças em períodos muito úmidos."
+          },
+          {
+            "tipo": "atencao",
+            "texto": "A chuva da janela tende a ficar acima do normal da região (pela previsão sazonal, sem correção de viés)."
+          },
+          {
+            "tipo": "atencao",
+            "texto": "Calor: cerca de 16 dia(s) com máxima ≥ 35 °C no ciclo (limite de estresse de Soja)."
+          },
+          {
+            "tipo": "favoravel",
+            "texto": "Risco de geada baixo na janela do ciclo."
+          },
+          {
+            "tipo": "favoravel",
+            "texto": "ZARC indica o plantio nesta data, com risco mínimo de 20%."
+          },
+          {
+            "tipo": "favoravel",
+            "texto": "Preço recebido no PR em alta nos últimos 3 meses (16.7%)."
+          },
+          {
+            "tipo": "favoravel",
+            "texto": "Soja é uma das principais culturas do município (34% da área), com estrutura de compra e assistência na região."
+          },
+          {
+            "tipo": "favoravel",
+            "texto": "Soja (leguminosa) após Batata (solanácea) alterna famílias, o que ajuda a quebrar ciclos de pragas e doenças."
+          },
+          {
+            "tipo": "atencao",
+            "texto": "Problemas de solo em comum entre Batata e Soja: nematoide. Vale checar histórico desses problemas na área."
+          },
+          {
+            "tipo": "favoravel",
+            "texto": "Soja fixa nitrogênio do ar, repondo parte do que Batata extraiu."
+          }
+        ]
+      },
+      {
+        "estrategia": "alternativa 1",
+        "cultura": "Milho (1ª safra)",
+        "favoraveis": 8,
+        "atencao": 2,
+        "sinais": [
+          {
+            "tipo": "favoravel",
+            "texto": "Chuva esperada no ciclo (1139 mm) cobre a necessidade de Milho (1ª safra) (500–800 mm), com sobra; atenção a doenças em períodos muito úmidos."
+          },
+          {
+            "tipo": "favoravel",
+            "texto": "A chuva da janela tende a ficar acima do normal da região (pela previsão sazonal, sem correção de viés)."
+          },
+          {
+            "tipo": "atencao",
+            "texto": "Calor: cerca de 17 dia(s) com máxima ≥ 35 °C no ciclo (limite de estresse de Milho (1ª safra))."
+          },
+          {
+            "tipo": "favoravel",
+            "texto": "Risco de geada baixo na janela do ciclo."
+          },
+          {
+            "tipo": "favoravel",
+            "texto": "ZARC indica o plantio nesta data, com risco mínimo de 20%."
+          },
+          {
+            "tipo": "favoravel",
+            "texto": "Preço recebido no PR em alta nos últimos 3 meses (6.9%)."
+          },
+          {
+            "tipo": "favoravel",
+            "texto": "Milho (1ª safra) é uma das principais culturas do município (13.7% da área), com estrutura de compra e assistência na região."
+          },
+          {
+            "tipo": "favoravel",
+            "texto": "Milho (1ª safra) (gramínea) após Batata (solanácea) alterna famílias, o que ajuda a quebrar ciclos de pragas e doenças."
+          },
+          {
+            "tipo": "atencao",
+            "texto": "Problemas de solo em comum entre Batata e Milho (1ª safra): nematoide. Vale checar histórico desses problemas na área."
+          },
+          {
+            "tipo": "favoravel",
+            "texto": "Milho (1ª safra) deixa palhada/cobertura, que protege o solo contra erosão e aumenta a matéria orgânica."
+          }
+        ]
+      },
+      {
+        "estrategia": "alternativa 2",
+        "cultura": "Feijão",
+        "favoraveis": 5,
+        "atencao": 5,
+        "sinais": [
+          {
+            "tipo": "atencao",
+            "texto": "Chuva esperada (812 mm) bem acima da necessidade de Feijão, que tolera mal o excesso de água (doenças, perda na colheita)."
+          },
+          {
+            "tipo": "atencao",
+            "texto": "A chuva da janela tende a ficar acima do normal da região (pela previsão sazonal, sem correção de viés)."
+          },
+          {
+            "tipo": "atencao",
+            "texto": "Calor: cerca de 43 dia(s) com máxima ≥ 32 °C no ciclo (limite de estresse de Feijão)."
+          },
+          {
+            "tipo": "favoravel",
+            "texto": "Risco de geada baixo na janela do ciclo."
+          },
+          {
+            "tipo": "favoravel",
+            "texto": "ZARC indica o plantio nesta data, com risco mínimo de 20%."
+          },
+          {
+            "tipo": "atencao",
+            "texto": "Preço recebido no PR (Feijao de cor) em queda nos últimos 3 meses (-8.4%)."
+          },
+          {
+            "tipo": "favoravel",
+            "texto": "Preço recebido no PR (Feijao preto) em alta nos últimos 3 meses (6.6%)."
+          },
+          {
+            "tipo": "favoravel",
+            "texto": "Feijão (leguminosa) após Batata (solanácea) alterna famílias, o que ajuda a quebrar ciclos de pragas e doenças."
+          },
+          {
+            "tipo": "atencao",
+            "texto": "Problemas de solo em comum entre Batata e Feijão: nematoide. Vale checar histórico desses problemas na área."
+          },
+          {
+            "tipo": "favoravel",
+            "texto": "Feijão fixa nitrogênio do ar, repondo parte do que Batata extraiu."
+          }
+        ]
+      }
+    ],
+    "analises": [
+      {
+        "cultura": "Soja",
+        "resumo": [
+          "Análise de Soja plantada em 2026-12-15 (ciclo até 2027-05-04) em Cianorte.",
+          "A favor: Chuva esperada no ciclo (1073 mm) cobre a necessidade de Soja (450–800 mm), com sobra; atenção a doenças em períodos muito úmidos.",
+          "Atenção: A chuva da janela tende a ficar acima do normal da região (pela previsão sazonal, sem correção de viés).",
+          "Atenção: Calor: cerca de 16 dia(s) com máxima ≥ 35 °C no ciclo (limite de estresse de Soja).",
+          "A favor: Risco de geada baixo na janela do ciclo.",
+          "A favor: ZARC indica o plantio nesta data, com risco mínimo de 20%.",
+          "A favor: Preço recebido no PR em alta nos últimos 3 meses (16.7%).",
+          "A favor: Soja é uma das principais culturas do município (34% da área), com estrutura de compra e assistência na região.",
+          "A favor: Soja (leguminosa) após Batata (solanácea) alterna famílias, o que ajuda a quebrar ciclos de pragas e doenças.",
+          "Atenção: Problemas de solo em comum entre Batata e Soja: nematoide. Vale checar histórico desses problemas na área.",
+          "A favor: Soja fixa nitrogênio do ar, repondo parte do que Batata extraiu."
+        ],
+        "limitacoes": [
+          "Análise de solo do talhão não informada: fertilidade e correção não avaliadas.",
+          "Preço pré-fixado da cooperativa não informado."
+        ],
+        "evidencias": {
+          "clima": {
+            "resumo": [
+              "Base dos dados da janela: 141 dia(s) de previsao sazonal.",
+              "Temperatura média esperada: mínimas de 21.1 °C e máximas de 29 °C (normal: 20.3 / 31.2 °C).",
+              "Chuva: 1073 mm contra normal de 649 mm — tendência acima do normal (modelo sazonal).",
+              "Geada: em 0/19 anos houve risco nesta janela.",
+              "Calor ≥ 35 °C: média histórica de 16.3 dia(s) por ano na janela."
+            ],
+            "limitacoes": [
+              "Dados em grade (~50 km no histórico NASA POWER): representam a região, não o talhão; baixadas e espigões podem ser mais frios ou quentes.",
+              "Previsão sazonal (além de 16 dias) indica tendência, não o tempo de cada dia: use totais e médias do período, nunca datas específicas.",
+              "A previsão sazonal é a saída bruta do modelo ECMWF, sem correção de viés; em Cianorte ela tende a ser mais chuvosa e mais fresca que o histórico. Confirme a tendência no boletim sazonal do INMET/CPTEC antes de decisões grandes."
+            ]
+          },
+          "zarc": {
+            "resumo": [
+              "Soja: plantio em 11 a 20/dez está INDICADO pelo ZARC 2026/2027 em 64 de 66 combinações de solo/ciclo, com risco mínimo de 20%. Janelas do ano: 1 a 10/set a 21 ao fim de dez (risco mínimo 20%)."
+            ],
+            "limitacoes": [
+              "Risco do ZARC = probabilidade de perda de até 20%, 30% ou 40% por fatores climáticos, para o tipo de solo (AD1 = menor água disponível … AD6 = maior) e o grupo de ciclo da cultivar.",
+              "O tipo de solo do talhão (classe AD) define qual linha vale; sem a análise, consideramos todas as combinações."
+            ]
+          },
+          "mercado": {
+            "resumo": [
+              "Soja (60 kg): média PR na semana 46-2026 de R$ 136.60 (Umuarama R$ 135.09, Maringá R$ 138.00); tendência de 3 meses: alta (16.7%); contra 1 ano atrás: 13.6%."
+            ],
+            "limitacoes": [
+              "Preço médio recebido pelo produtor no Paraná (mercado disponível). Não é o preço pré-fixado da cooperativa, que precisa vir do produtor ou da cooperativa.",
+              "Tendência passada não garante preço futuro na colheita.",
+              "O DERAL não publica núcleo para Cianorte; usamos Umuarama e Maringá como referência regional."
+            ]
+          },
+          "regiao": {
+            "resumo": [
+              "Em 2025, Cianorte colheu 37252 ha em lavouras. Principais: Cana-de-açúcar (38.2%), Soja (em grão) (34%), Milho (em grão) (13.7%), Mandioca (12.1%), Café (em grão) Total (1.3%).",
+              "Variação de área desde 2021: Cana-de-açúcar -20%, Soja (em grão) +5%, Milho (em grão) -8%, Mandioca +13%, Café (em grão) Total +23%."
+            ],
+            "limitacoes": [
+              "Estatística anual do município inteiro, publicada com cerca de um ano de atraso; não reflete a safra corrente."
+            ]
+          },
+          "solo": {
+            "resumo": [
+              "SoilGrids não tem estimativa para este ponto (comum em área urbana ou corpo d'água). Informe a coordenada do talhão."
+            ],
+            "limitacoes": [
+              "Sem dado no ponto."
+            ]
+          },
+          "recente": {
+            "resumo": [
+              "Últimos 30 dias (até 2026-11-11): 260 mm de chuva contra normal de 150 mm (+73%); temperatura -3.4 °C em relação à média.",
+              "Últimos 87 dias: 601 mm contra 332 mm (+81%); temperatura -1.7 °C."
+            ],
+            "limitacoes": [
+              "NASA POWER tem atraso de alguns dias; os últimos dias antes de hoje podem não estar incluídos.",
+              "Dados em grade (~50 km no histórico NASA POWER): representam a região, não o talhão; baixadas e espigões podem ser mais frios ou quentes."
+            ]
+          },
+          "relevo": {
+            "resumo": [
+              "Altitude 533 m, declividade de 2.3% (plano), posição: encosta/meia-encosta (+6 m em relação ao entorno de 1 km)."
+            ],
+            "limitacoes": [
+              "Modelo de elevação de 90 m: suaviza terraços e pequenas depressões dentro do talhão.",
+              "Coordenada do CEP/município: o relevo calculado é o da cidade, não o do talhão."
+            ]
+          }
+        }
+      },
+      {
+        "cultura": "Milho (1ª safra)",
+        "resumo": [
+          "Análise de Milho (1ª safra) plantada em 2026-12-15 (ciclo até 2027-05-14) em Cianorte.",
+          "A favor: Chuva esperada no ciclo (1139 mm) cobre a necessidade de Milho (1ª safra) (500–800 mm), com sobra; atenção a doenças em períodos muito úmidos.",
+          "A favor: A chuva da janela tende a ficar acima do normal da região (pela previsão sazonal, sem correção de viés).",
+          "Atenção: Calor: cerca de 17 dia(s) com máxima ≥ 35 °C no ciclo (limite de estresse de Milho (1ª safra)).",
+          "A favor: Risco de geada baixo na janela do ciclo.",
+          "A favor: ZARC indica o plantio nesta data, com risco mínimo de 20%.",
+          "A favor: Preço recebido no PR em alta nos últimos 3 meses (6.9%).",
+          "A favor: Milho (1ª safra) é uma das principais culturas do município (13.7% da área), com estrutura de compra e assistência na região.",
+          "A favor: Milho (1ª safra) (gramínea) após Batata (solanácea) alterna famílias, o que ajuda a quebrar ciclos de pragas e doenças.",
+          "Atenção: Problemas de solo em comum entre Batata e Milho (1ª safra): nematoide. Vale checar histórico desses problemas na área.",
+          "A favor: Milho (1ª safra) deixa palhada/cobertura, que protege o solo contra erosão e aumenta a matéria orgânica."
+        ],
+        "limitacoes": [
+          "Análise de solo do talhão não informada: fertilidade e correção não avaliadas.",
+          "Preço pré-fixado da cooperativa não informado."
+        ],
+        "evidencias": {
+          "clima": {
+            "resumo": [
+              "Base dos dados da janela: 151 dia(s) de previsao sazonal.",
+              "Temperatura média esperada: mínimas de 20.8 °C e máximas de 28.8 °C (normal: 19.9 / 30.9 °C).",
+              "Chuva: 1139 mm contra normal de 670 mm — tendência acima do normal (modelo sazonal).",
+              "Geada: em 0/19 anos houve risco nesta janela.",
+              "Calor ≥ 35 °C: média histórica de 16.5 dia(s) por ano na janela."
+            ],
+            "limitacoes": [
+              "Dados em grade (~50 km no histórico NASA POWER): representam a região, não o talhão; baixadas e espigões podem ser mais frios ou quentes.",
+              "Previsão sazonal (além de 16 dias) indica tendência, não o tempo de cada dia: use totais e médias do período, nunca datas específicas.",
+              "A previsão sazonal é a saída bruta do modelo ECMWF, sem correção de viés; em Cianorte ela tende a ser mais chuvosa e mais fresca que o histórico. Confirme a tendência no boletim sazonal do INMET/CPTEC antes de decisões grandes."
+            ]
+          },
+          "zarc": {
+            "resumo": [
+              "Milho 1ª Safra: plantio em 11 a 20/dez está INDICADO pelo ZARC 2026/2027 em 14 de 15 combinações de solo/ciclo, com risco mínimo de 20%. Janelas do ano: 1 a 10/ago a 21 ao fim de dez (risco mínimo 20%).",
+              "Milho 1ª Safra consorciado com Braquiária: plantio em 11 a 20/dez está INDICADO pelo ZARC 2026/2027 em 14 de 15 combinações de solo/ciclo, com risco mínimo de 20%. Janelas do ano: 1 a 10/ago a 21 ao fim de dez (risco mínimo 20%)."
+            ],
+            "limitacoes": [
+              "Risco do ZARC = probabilidade de perda de até 20%, 30% ou 40% por fatores climáticos, para o tipo de solo (AD1 = menor água disponível … AD6 = maior) e o grupo de ciclo da cultivar.",
+              "O tipo de solo do talhão (classe AD) define qual linha vale; sem a análise, consideramos todas as combinações."
+            ]
+          },
+          "mercado": {
+            "resumo": [
+              "Milho (60 kg): média PR na semana 46-2026 de R$ 53.31 (Umuarama R$ 53.11, Maringá R$ 54.00); tendência de 3 meses: alta (6.9%); contra 1 ano atrás: 0.9%."
+            ],
+            "limitacoes": [
+              "Preço médio recebido pelo produtor no Paraná (mercado disponível). Não é o preço pré-fixado da cooperativa, que precisa vir do produtor ou da cooperativa.",
+              "Tendência passada não garante preço futuro na colheita.",
+              "O DERAL não publica núcleo para Cianorte; usamos Umuarama e Maringá como referência regional."
+            ]
+          },
+          "regiao": {
+            "resumo": [
+              "Em 2025, Cianorte colheu 37252 ha em lavouras. Principais: Cana-de-açúcar (38.2%), Soja (em grão) (34%), Milho (em grão) (13.7%), Mandioca (12.1%), Café (em grão) Total (1.3%).",
+              "Variação de área desde 2021: Cana-de-açúcar -20%, Soja (em grão) +5%, Milho (em grão) -8%, Mandioca +13%, Café (em grão) Total +23%."
+            ],
+            "limitacoes": [
+              "Estatística anual do município inteiro, publicada com cerca de um ano de atraso; não reflete a safra corrente."
+            ]
+          },
+          "solo": {
+            "resumo": [
+              "SoilGrids não tem estimativa para este ponto (comum em área urbana ou corpo d'água). Informe a coordenada do talhão."
+            ],
+            "limitacoes": [
+              "Sem dado no ponto."
+            ]
+          },
+          "recente": {
+            "resumo": [
+              "Últimos 30 dias (até 2026-11-11): 260 mm de chuva contra normal de 150 mm (+73%); temperatura -3.4 °C em relação à média.",
+              "Últimos 87 dias: 601 mm contra 332 mm (+81%); temperatura -1.7 °C."
+            ],
+            "limitacoes": [
+              "NASA POWER tem atraso de alguns dias; os últimos dias antes de hoje podem não estar incluídos.",
+              "Dados em grade (~50 km no histórico NASA POWER): representam a região, não o talhão; baixadas e espigões podem ser mais frios ou quentes."
+            ]
+          },
+          "relevo": {
+            "resumo": [
+              "Altitude 533 m, declividade de 2.3% (plano), posição: encosta/meia-encosta (+6 m em relação ao entorno de 1 km)."
+            ],
+            "limitacoes": [
+              "Modelo de elevação de 90 m: suaviza terraços e pequenas depressões dentro do talhão.",
+              "Coordenada do CEP/município: o relevo calculado é o da cidade, não o do talhão."
+            ]
+          }
+        }
+      },
+      {
+        "cultura": "Feijão",
+        "resumo": [
+          "Análise de Feijão plantada em 2026-12-15 (ciclo até 2027-03-25) em Cianorte.",
+          "Atenção: Chuva esperada (812 mm) bem acima da necessidade de Feijão, que tolera mal o excesso de água (doenças, perda na colheita).",
+          "Atenção: A chuva da janela tende a ficar acima do normal da região (pela previsão sazonal, sem correção de viés).",
+          "Atenção: Calor: cerca de 43 dia(s) com máxima ≥ 32 °C no ciclo (limite de estresse de Feijão).",
+          "A favor: Risco de geada baixo na janela do ciclo.",
+          "A favor: ZARC indica o plantio nesta data, com risco mínimo de 20%.",
+          "Atenção: Preço recebido no PR (Feijao de cor) em queda nos últimos 3 meses (-8.4%).",
+          "A favor: Preço recebido no PR (Feijao preto) em alta nos últimos 3 meses (6.6%).",
+          "A favor: Feijão (leguminosa) após Batata (solanácea) alterna famílias, o que ajuda a quebrar ciclos de pragas e doenças.",
+          "Atenção: Problemas de solo em comum entre Batata e Feijão: nematoide. Vale checar histórico desses problemas na área.",
+          "A favor: Feijão fixa nitrogênio do ar, repondo parte do que Batata extraiu."
+        ],
+        "limitacoes": [
+          "Análise de solo do talhão não informada: fertilidade e correção não avaliadas.",
+          "Preço pré-fixado da cooperativa não informado."
+        ],
+        "evidencias": {
+          "clima": {
+            "resumo": [
+              "Base dos dados da janela: 101 dia(s) de previsao sazonal.",
+              "Temperatura média esperada: mínimas de 21.8 °C e máximas de 29.6 °C (normal: 21.3 / 31.7 °C).",
+              "Chuva: 812 mm contra normal de 536 mm — tendência acima do normal (modelo sazonal).",
+              "Geada: em 0/19 anos houve risco nesta janela.",
+              "Calor ≥ 32 °C: média histórica de 42.6 dia(s) por ano na janela."
+            ],
+            "limitacoes": [
+              "Dados em grade (~50 km no histórico NASA POWER): representam a região, não o talhão; baixadas e espigões podem ser mais frios ou quentes.",
+              "Previsão sazonal (além de 16 dias) indica tendência, não o tempo de cada dia: use totais e médias do período, nunca datas específicas.",
+              "A previsão sazonal é a saída bruta do modelo ECMWF, sem correção de viés; em Cianorte ela tende a ser mais chuvosa e mais fresca que o histórico. Confirme a tendência no boletim sazonal do INMET/CPTEC antes de decisões grandes."
+            ]
+          },
+          "zarc": {
+            "resumo": [
+              "Feijão: plantio em 11 a 20/dez está INDICADO pelo ZARC 2026/2027 em 8 de 8 combinações de solo/ciclo, com risco mínimo de 20%. Janelas do ano: 1 a 10/set a 21 ao fim de dez (risco mínimo 20%).",
+              "Feijão 2ª Safra: plantio em 11 a 20/dez NÃO está indicado pelo ZARC 2026/2027. Próximo decêndio indicado: 1 a 10/jan. Janelas do ano: 1 a 10/jan a 21 ao fim de fev (risco mínimo 20%)."
+            ],
+            "limitacoes": [
+              "Risco do ZARC = probabilidade de perda de até 20%, 30% ou 40% por fatores climáticos, para o tipo de solo (AD1 = menor água disponível … AD6 = maior) e o grupo de ciclo da cultivar.",
+              "O tipo de solo do talhão (classe AD) define qual linha vale; sem a análise, consideramos todas as combinações."
+            ]
+          },
+          "mercado": {
+            "resumo": [
+              "Feijao de cor (60 kg): média PR na semana 46-2026 de R$ 302.45; tendência de 3 meses: queda (-8.4%); contra 1 ano atrás: 57%.",
+              "Feijao preto (60 kg): média PR na semana 46-2026 de R$ 253.97; tendência de 3 meses: alta (6.6%); contra 1 ano atrás: 74.3%."
+            ],
+            "limitacoes": [
+              "Preço médio recebido pelo produtor no Paraná (mercado disponível). Não é o preço pré-fixado da cooperativa, que precisa vir do produtor ou da cooperativa.",
+              "Tendência passada não garante preço futuro na colheita.",
+              "O DERAL não publica núcleo para Cianorte; usamos Umuarama e Maringá como referência regional."
+            ]
+          },
+          "regiao": {
+            "resumo": [
+              "Em 2025, Cianorte colheu 37252 ha em lavouras. Principais: Cana-de-açúcar (38.2%), Soja (em grão) (34%), Milho (em grão) (13.7%), Mandioca (12.1%), Café (em grão) Total (1.3%).",
+              "Variação de área desde 2021: Cana-de-açúcar -20%, Soja (em grão) +5%, Milho (em grão) -8%, Mandioca +13%, Café (em grão) Total +23%."
+            ],
+            "limitacoes": [
+              "Estatística anual do município inteiro, publicada com cerca de um ano de atraso; não reflete a safra corrente."
+            ]
+          },
+          "solo": {
+            "resumo": [
+              "SoilGrids não tem estimativa para este ponto (comum em área urbana ou corpo d'água). Informe a coordenada do talhão."
+            ],
+            "limitacoes": [
+              "Sem dado no ponto."
+            ]
+          },
+          "recente": {
+            "resumo": [
+              "Últimos 30 dias (até 2026-11-11): 260 mm de chuva contra normal de 150 mm (+73%); temperatura -3.4 °C em relação à média.",
+              "Últimos 87 dias: 601 mm contra 332 mm (+81%); temperatura -1.7 °C."
+            ],
+            "limitacoes": [
+              "NASA POWER tem atraso de alguns dias; os últimos dias antes de hoje podem não estar incluídos.",
+              "Dados em grade (~50 km no histórico NASA POWER): representam a região, não o talhão; baixadas e espigões podem ser mais frios ou quentes."
+            ]
+          },
+          "relevo": {
+            "resumo": [
+              "Altitude 533 m, declividade de 2.3% (plano), posição: encosta/meia-encosta (+6 m em relação ao entorno de 1 km)."
+            ],
+            "limitacoes": [
+              "Modelo de elevação de 90 m: suaviza terraços e pequenas depressões dentro do talhão.",
+              "Coordenada do CEP/município: o relevo calculado é o da cidade, não o do talhão."
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "nome": "NASA POWER (MERRA-2/GEOS) — histórico 2006–2025",
+      "url": "https://power.larc.nasa.gov/",
+      "resolucao": "~50 km",
+      "tipo": "reanalise"
+    },
+    {
+      "nome": "Open-Meteo Seasonal (ECMWF SEAS5, ensemble)",
+      "url": "https://open-meteo.com/en/docs/seasonal-forecast-api",
+      "resolucao": "~36 km",
+      "tipo": "previsao_sazonal"
+    },
+    {
+      "nome": "ZARC — Tábua de Risco (MAPA)",
+      "url": "https://dados.agricultura.gov.br/dataset/tabua-de-risco-zoneamento-agricola-de-risco-climatico",
+      "tipo": "norma_oficial"
+    },
+    {
+      "nome": "SEAB/DERAL — Preços recebidos pelos produtores (PR)",
+      "url": "https://www.agricultura.pr.gov.br/deral/precos",
+      "tipo": "estatistica_oficial"
+    },
+    {
+      "nome": "IBGE — Produção Agrícola Municipal (SIDRA, tabela 5457)",
+      "url": "https://sidra.ibge.gov.br/tabela/5457",
+      "tipo": "estatistica_oficial"
+    },
+    {
+      "nome": "ISRIC SoilGrids 2.0",
+      "url": "https://soilgrids.org/",
+      "resolucao": "250 m",
+      "tipo": "estimativa"
+    },
+    {
+      "nome": "NASA POWER (MERRA-2/GEOS)",
+      "url": "https://power.larc.nasa.gov/",
+      "resolucao": "~50 km",
+      "tipo": "reanalise"
+    },
+    {
+      "nome": "Copernicus DEM GLO-90 (via Open-Meteo)",
+      "url": "https://open-meteo.com/en/docs/elevation-api",
+      "resolucao": "~90 m",
+      "tipo": "observacao"
+    }
+  ],
+  "limitacoes": [
+    "A contagem de sinais é só um apoio de leitura, não uma nota: um único ponto de atenção (ex.: fora do ZARC) pode pesar mais que vários favoráveis.",
+    "Análise de solo do talhão não informada: fertilidade e correção não avaliadas.",
+    "Preço pré-fixado da cooperativa não informado."
+  ],
+  "geradoEm": "2026-11-15T07:50:03.304Z"
+}

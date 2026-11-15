@@ -1,0 +1,90 @@
+{
+  "ferramenta": "vegetacao_ndvi",
+  "local": {
+    "lat": -23.7,
+    "lon": -52.56,
+    "precisao": "talhao",
+    "ibge": "4105508",
+    "municipio": "Cianorte",
+    "uf": "PR"
+  },
+  "periodo": {
+    "inicio": "2025-11-15",
+    "fim": "2026-11-15"
+  },
+  "resumo": [
+    "NDVI de 0.49 na composição de 2026-10-16 (cobertura parcial); tendência caindo (-0.33 em ~32 dias).",
+    "Na mesma época dos últimos 4 anos o NDVI mediano foi 0.31: acima do usual (+0.18)."
+  ],
+  "dados": {
+    "atual": {
+      "data": "2026-10-16",
+      "ndvi": 0.49,
+      "evi": 0.34,
+      "classe": "cobertura parcial"
+    },
+    "tendencia": "caindo",
+    "variacao32d": -0.33,
+    "normalMesmaEpoca": 0.31,
+    "anosNaComparacao": 4,
+    "anomalia": 0.18,
+    "composicoesValidas": 6,
+    "composicoesComNuvem": 1,
+    "solo": {
+      "composicoesExpostas12m": 0,
+      "maiorPeriodoExpostoDias": 0
+    },
+    "serie": [
+      {
+        "data": "2026-04-23",
+        "ndvi": 0.71,
+        "confiavel": true
+      },
+      {
+        "data": "2026-05-09",
+        "ndvi": 0.65,
+        "confiavel": true
+      },
+      {
+        "data": "2026-05-25",
+        "ndvi": 0.75,
+        "confiavel": true
+      },
+      {
+        "data": "2026-06-10",
+        "ndvi": 0.8,
+        "confiavel": false
+      },
+      {
+        "data": "2026-06-26",
+        "ndvi": 0.82,
+        "confiavel": true
+      },
+      {
+        "data": "2026-09-30",
+        "ndvi": 0.38,
+        "confiavel": true
+      },
+      {
+        "data": "2026-10-16",
+        "ndvi": 0.49,
+        "confiavel": true
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "nome": "NASA MODIS MOD13Q1 (NDVI/EVI 16 dias) via ORNL DAAC",
+      "url": "https://modis.ornl.gov/",
+      "resolucao": "250 m",
+      "tipo": "observacao"
+    }
+  ],
+  "limitacoes": [
+    "Pixel de 250 m: só representa a lavoura se o ponto for do talhão e a área for maior que ~6 ha. A coordenada do CEP é a da cidade.",
+    "Composição de 16 dias com atraso de ~2 semanas; nuvem persistente deixa lacunas.",
+    "NDVI mede verde/cobertura, não diagnostica a causa (seca, praga, colheita, dessecação).",
+    "O serviço MODIS falhou em 3 de 5 pedidos: a série do último ano está incompleta."
+  ],
+  "geradoEm": "2026-11-15T07:53:24.470Z"
+}

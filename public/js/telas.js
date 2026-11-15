@@ -7,6 +7,7 @@ import {
 } from './util.js';
 import { NIVEIS } from './caminhos.js';
 import { colunasAgrupadas, colunasSimples } from './graficos.js';
+import { pegarRascunho } from './registros.js';
 
 export const falas = new Map();
 
@@ -46,7 +47,7 @@ export function ideiaDoDia(ctx) {
   const forte = dias.find((d) => d.mm >= 10);
   const total = Math.round(dias.reduce((s, d) => s + d.mm, 0));
   if (forte) {
-    return `Chuva forte prevista pra ${nomeDoDia(forte.iso)}, uns ${Math.round(forte.mm)} milímetros. Se for plantar o feijão, uma ideia é esperar ela passar. A decisão é sua.`;
+    return `Chuva forte prevista pra ${nomeDoDia(forte.iso)}, uns ${Math.round(forte.mm)} milímetros. Se for plantar o feijão, uma ideia é esperar ela passar.`;
   }
   if (total < 5 && Math.max(...dias.map((d) => d.max)) >= 32) {
     return 'Semana seca e quente. Se for irrigar o milho, uma ideia é fazer isso no fim da tarde, quando evapora menos.';
@@ -390,6 +391,11 @@ function iconeCultura(cultura) {
 export const CULTURAS = ['Soja', 'Milho', 'Feijão', 'Sorgo', 'Trigo', 'Aveia-preta (cobertura)', 'Braquiária', 'Mandioca', 'Pousio', 'Outra'];
 
 export function lavoura(ctx, id, aviso) {
+  // vindo do "Corrigir" da conversa: abre o formulário já preenchido
+  const rasc = pegarRascunho(id);
+  const rs = rasc?.tipo === 'safra' ? rasc : null;
+  const ra = rasc?.tipo === 'aplicacao' ? rasc : null;
+  const culturas = rs?.cultura && !CULTURAS.some((c) => c.toLowerCase() === rs.cultura.toLowerCase()) ? [rs.cultura, ...CULTURAS] : CULTURAS;
   const l = ctx.fazenda.lavouras.find((x) => x.id === id);
   if (!l) return `<div class="pagina">${voltar('#/roca', 'Minha roça')}<p>Área não encontrada.</p></div>`;
   const extras = ctx.registros[id] || { historico: [], aplicacoes: [] };
@@ -419,12 +425,12 @@ export function lavoura(ctx, id, aviso) {
     <ul class="historico">
       ${historico.map((h) => `<li class="${h.novo ? 'novo' : ''}"><span class="safra">${esc(h.safra)}</span><span><span class="cultura">${esc(h.cultura)}</span>${h.atual ? ' · agora' : ''}${h.nota ? `<span class="nota">${esc(h.nota)}</span>` : ''}${h.novo ? '<span class="nota">lançado no app</span>' : ''}</span></li>`).join('')}
     </ul>
-    <details>
+    <details${rs ? ' open' : ''}>
       <summary class="botao pequeno contorno" style="list-style:none;justify-content:center">+ Lançar safra antiga</summary>
       <form class="form" data-form="historico" data-lavoura="${esc(id)}" style="margin-top:8px">
-        <label>Safra<input name="safra" required maxlength="40" placeholder="Ex.: Safrinha 2023"></label>
-        <label>O que foi plantado<select name="cultura" required>${CULTURAS.map((c) => `<option>${esc(c)}</option>`).join('')}</select></label>
-        <label>Como foi (opcional)<input name="nota" maxlength="80" placeholder="Ex.: perdeu na seca"></label>
+        <label>Safra<input name="safra" required maxlength="40" placeholder="Ex.: Safrinha 2023" value="${esc(rs?.safra || '')}"></label>
+        <label>O que foi plantado<select name="cultura" required>${culturas.map((c) => `<option${rs?.cultura?.toLowerCase() === c.toLowerCase() ? ' selected' : ''}>${esc(c)}</option>`).join('')}</select></label>
+        <label>Como foi (opcional)<input name="nota" maxlength="80" placeholder="Ex.: perdeu na seca" value="${esc(rs?.nota || '')}"></label>
         <div class="linha-botoes"><button class="botao pequeno" type="submit">Salvar</button></div>
       </form>
     </details>
@@ -435,12 +441,12 @@ export function lavoura(ctx, id, aviso) {
     <ul class="historico aplicacoes">
       ${aplicacoes.slice(0, 8).map((a) => `<li class="${a.novo ? 'novo' : ''}"><span class="safra">${fmtDataCurta(a.data)}</span><span class="cultura">${esc(a.produto)}</span><span>${esc(a.qtd)}</span></li>`).join('')}
     </ul>
-    <details>
+    <details${ra ? ' open' : ''}>
       <summary class="botao pequeno" style="list-style:none;justify-content:center">+ Registrar aplicação</summary>
       <form class="form" data-form="aplicacao" data-lavoura="${esc(id)}" style="margin-top:8px">
-        <label>Data<input name="data" type="date" required value="${hoje}" max="${hoje}"></label>
-        <label>Produto<input name="produto" required maxlength="60" placeholder="Ex.: Ureia (cobertura)"></label>
-        <label>Quantidade por hectare<input name="qtd" required maxlength="20" placeholder="Ex.: 100 kg/ha"></label>
+        <label>Data<input name="data" type="date" required value="${esc(ra?.data || hoje)}" max="${hoje}"></label>
+        <label>Produto<input name="produto" required maxlength="60" placeholder="Ex.: Ureia (cobertura)" value="${esc(ra?.produto || '')}"></label>
+        <label>Quantidade por hectare<input name="qtd" required maxlength="20" placeholder="Ex.: 100 kg/ha" value="${esc(ra?.quantidade || '')}"></label>
         <div class="linha-botoes"><button class="botao pequeno" type="submit">Salvar</button></div>
       </form>
     </details>

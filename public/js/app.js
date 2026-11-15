@@ -4,9 +4,9 @@ import { getJSON, armazenar } from './util.js';
 import { montarCaminhos, fatosDoClima } from './caminhos.js';
 import { falar, pararFala } from './voz.js';
 import * as telas from './telas.js';
-import { telaChat, montarChat, desmontarChat, perguntarDepois, reiniciarConversa } from './cid.js';
+import { telaChat, montarChat, desmontarChat, perguntarDepois, reiniciarConversa, CHAVE_PREFERENCIAS } from './cid.js';
+import { CHAVE_REGISTROS, salvarRegistro } from './registros.js';
 
-const CHAVE_REGISTROS = 'semeia:registros';
 const CHAVE_BOAS_VINDAS = 'semeia:viu-boas-vindas';
 const ctx = {};
 const conteudo = document.getElementById('conteudo');
@@ -110,7 +110,7 @@ function aoClicar(e) {
   const acao = e.target.closest('[data-acao]')?.dataset.acao;
   if (acao === 'comecar') armazenar.gravar(CHAVE_BOAS_VINDAS, true);
   if (acao === 'reiniciar') {
-    armazenar.limpar([CHAVE_REGISTROS, CHAVE_BOAS_VINDAS, 'semeia:conversa']);
+    armazenar.limpar([CHAVE_REGISTROS, CHAVE_BOAS_VINDAS, 'semeia:conversa', CHAVE_PREFERENCIAS]);
     ctx.registros = {};
     reiniciarConversa();
     if (location.hash === '#/boas-vindas') rotear();
@@ -124,16 +124,13 @@ function aoEnviar(e) {
   e.preventDefault();
   const id = form.dataset.lavoura;
   const dados = Object.fromEntries(new FormData(form).entries());
-  const reg = ctx.registros[id] || { historico: [], aplicacoes: [] };
   if (form.dataset.form === 'historico') {
-    reg.historico.unshift({ safra: dados.safra.trim(), cultura: dados.cultura, nota: dados.nota?.trim() || undefined });
+    salvarRegistro(ctx, id, 'safra', { safra: dados.safra.trim(), cultura: dados.cultura, nota: dados.nota?.trim() || undefined });
     avisoLavoura = `Safra ${dados.safra.trim()} salva. O Cid vai considerar esse histórico.`;
   } else {
-    reg.aplicacoes.unshift({ data: dados.data, produto: dados.produto.trim(), qtd: dados.qtd.trim() });
+    salvarRegistro(ctx, id, 'aplicacao', { data: dados.data, produto: dados.produto.trim(), qtd: dados.qtd.trim() });
     avisoLavoura = `Aplicação de ${dados.produto.trim()} registrada.`;
   }
-  ctx.registros[id] = reg;
-  armazenar.gravar(CHAVE_REGISTROS, ctx.registros);
   rotear();
 }
 

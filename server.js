@@ -5,8 +5,11 @@
 // e o Cid responde em modo demonstração, com respostas prontas.
 
 import { createServer } from 'node:http';
+import { createServer as createHttpsServer } from 'node:https';
+import { execFileSync } from 'node:child_process';
+import { networkInterfaces } from 'node:os';
 import { readFile, stat } from 'node:fs/promises';
-import { existsSync, readFileSync } from 'node:fs';
+import { existsSync, readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { extname, join, normalize, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { montarCaminhos, fatosDoClima } from './public/js/caminhos.js';
@@ -229,7 +232,7 @@ async function servirArquivo(req, res, caminho) {
   }
 }
 
-const servidor = createServer(async (req, res) => {
+async function atender(req, res) {
   const { pathname } = new URL(req.url, 'http://localhost');
   try {
     if (pathname === '/api/status' && req.method === 'GET') {
@@ -258,12 +261,52 @@ const servidor = createServer(async (req, res) => {
     const publico = e.publico || (e.status === 413 ? e.message : 'falha ao falar com a IA');
     return json(res, e.status || 502, { erro: publico });
   }
-});
+}
 
-servidor.listen(PORTA, () => {
+createServer(atender).listen(PORTA, () => {
   console.log(`Semeia rodando em http://localhost:${PORTA}`);
   console.log(CHAVE ? `Cid com IA (${MODELO_CHAT} via Groq)` : 'Sem GROQ_API_KEY: Cid em modo demonstração');
 });
+
+// Modo HTTPS para abrir no celular pela rede local: o navegador só libera o
+// microfone em HTTPS. O certificado é próprio (autoassinado), então o celular
+// mostra um aviso na primeira vez; é só avançar.
+if (process.argv.includes('--https') || process.env.HTTPS === '1') {
+  const PORTA_HTTPS = Number(process.env.HTTPS_PORT) || 3443;
+  const ips = enderecosNaRede();
+  createHttpsServer(certificadoLocal(ips), atender).listen(PORTA_HTTPS, () => {
+    console.log(`\nNo celular (mesmo Wi-Fi), abra:`);
+    for (const ip of ips) console.log(`  https://${ip}:${PORTA_HTTPS}`);
+    console.log('Na primeira vez o navegador avisa que a conexão não é privada: toque em "Avançado" e continue.');
+  });
+}
+
+function enderecosNaRede() {
+  return Object.entries(networkInterfaces())
+    .filter(([nome]) => !/^(docker|br-|veth|virbr|lo)/.test(nome))
+    .flatMap(([, lista]) => lista)
+    .filter((i) => i.family === 'IPv4' && !i.internal)
+    .map((i) => i.address);
+}
+
+function certificadoLocal(ips) {
+  const pasta = join(RAIZ, '.certs');
+  const chave = join(pasta, 'chave.pem');
+  const cert = join(pasta, 'cert.pem');
+  const marca = join(pasta, 'ips.txt');
+  const ipsTexto = ips.join(',');
+  if (!existsSync(cert) || !existsSync(marca) || readFileSync(marca, 'utf8') !== ipsTexto) {
+    mkdirSync(pasta, { recursive: true });
+    const san = ['DNS:localhost', 'IP:127.0.0.1', ...ips.map((ip) => `IP:${ip}`)].join(',');
+    execFileSync('openssl', [
+      'req', '-x509', '-newkey', 'rsa:2048', '-nodes', '-days', '30',
+      '-keyout', chave, '-out', cert, '-subj', '/CN=Semeia local', '-addext', `subjectAltName=${san}`,
+    ], { stdio: 'ignore' });
+    writeFileSync(marca, ipsTexto);
+    console.log('Certificado local gerado em .certs/');
+  }
+  return { key: readFileSync(chave), cert: readFileSync(cert) };
+}
 
 function carregarEnv(arquivo) {
   if (!existsSync(arquivo)) return;

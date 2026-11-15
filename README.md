@@ -15,7 +15,17 @@ npm start              # http://localhost:3000
 
 - **Com `GROQ_API_KEY`:** o Cid responde com IA (`openai/gpt-oss-120b`) e transcreve o áudio (`whisper-large-v3-turbo`).
 - **Sem chave:** tudo funciona em modo demonstração, com respostas prontas montadas sobre os mesmos dados. O microfone usa o reconhecimento de voz do Chrome.
-- **Microfone:** o navegador só libera em `localhost` ou HTTPS. Para apresentar, rode no próprio notebook.
+- **Microfone:** o navegador só libera em `localhost` ou HTTPS.
+
+### No celular
+
+```bash
+npm run celular        # HTTP em :3000 e HTTPS em :3443, com certificado local
+```
+
+Com o celular no mesmo Wi-Fi do notebook, abra o endereço `https://<ip-do-notebook>:3443` que o terminal mostrar. Na primeira vez o navegador avisa que a conexão não é privada (o certificado é gerado na hora, só para a rede local): toque em **Avançado** e continue. Depois disso o microfone funciona.
+
+Se o Wi-Fi do evento bloquear a conexão entre aparelhos, use o roteador do celular (o notebook entra no Wi-Fi do celular) ou um túnel HTTPS.
 - **Leitura em voz alta:** usa a voz em português do navegador (Chrome ou Edge têm as melhores vozes).
 
 ## O que é real e o que é exemplo

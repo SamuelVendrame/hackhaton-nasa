@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
+    "celular": "node server.js --https",
     "dados:nasa": "node scripts/nasa-power.mjs"
   },
   "engines": {

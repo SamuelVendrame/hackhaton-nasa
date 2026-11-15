@@ -1,0 +1,43 @@
+{
+  "ferramenta": "monitorar_plantio",
+  "local": {
+    "cep": "87209000",
+    "municipio": "Cianorte",
+    "uf": "PR",
+    "ibge": "4105508",
+    "lat": -23.66333,
+    "lon": -52.605,
+    "precisao": "cep"
+  },
+  "periodo": {
+    "inicio": "2026-12-15",
+    "fim": "2027-05-04"
+  },
+  "resumo": [
+    "Sem mudanças relevantes no cenário do plantio desde a última verificação."
+  ],
+  "dados": {
+    "foto": {
+      "plantioId": "teste-1",
+      "tiradaEm": "2026-11-15T07:50:03.525Z",
+      "periodo": {
+        "inicio": "2026-12-15",
+        "fim": "2027-05-04"
+      },
+      "chuvaTotalMm": 1073,
+      "chuvaClasse": "tendência acima do normal (modelo sazonal)",
+      "diasGeadaPrevistos": [],
+      "probGeadaSazonal": 0,
+      "diasCalorPrevistos": [],
+      "diasChuvaForte": [],
+      "rajadasFortes": [],
+      "maiorSequenciaSeca": 0
+    },
+    "alertas": []
+  },
+  "fontes": [],
+  "limitacoes": [
+    "Guarde `dados.foto` e envie como `fotoAnterior` na próxima execução para detectar mudanças."
+  ],
+  "geradoEm": "2026-11-15T07:50:03.525Z"
+}

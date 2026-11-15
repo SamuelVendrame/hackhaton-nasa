@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Field Shift · teste de voz</title>
+<style>
+  :root { --bg:#f6f4ee; --card:#fff; --tx:#1f2a1f; --mut:#5d6b5d; --pri:#2f6b3a; --erro:#a33; --borda:#d9d6cc; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#141814; --card:#1d231d; --tx:#e7ece6; --mut:#9aa79a; --pri:#6cbf7a; --erro:#e77; --borda:#2f382f; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--tx); font:16px/1.5 system-ui, sans-serif; }
+  main { max-width:640px; margin:0 auto; padding:24px 16px 64px; }
+  h1 { font-size:22px; margin:0 0 4px; }
+  p.sub { color:var(--mut); margin:0 0 20px; }
+  .card { background:var(--card); border:1px solid var(--borda); border-radius:12px; padding:16px; margin-bottom:16px; }
+  label { font-size:13px; color:var(--mut); display:block; margin-bottom:4px; }
+  input { width:100%; padding:8px 10px; border-radius:8px; border:1px solid var(--borda); background:transparent; color:var(--tx); font:inherit; }
+  button { font:inherit; border:0; border-radius:999px; padding:14px 22px; background:var(--pri); color:#fff; cursor:pointer; width:100%; font-weight:600; }
+  button.gravando { background:var(--erro); }
+  button:disabled { opacity:.5; cursor:default; }
+  .etapas { display:flex; flex-wrap:wrap; gap:6px; margin-top:12px; }
+  .etapa { font-size:12px; padding:3px 9px; border-radius:999px; border:1px solid var(--borda); color:var(--mut); }
+  .etapa.ok { border-color:var(--pri); color:var(--pri); }
+  .etapa.atual { background:var(--pri); color:#fff; border-color:var(--pri); }
+  .fala { white-space:pre-wrap; }
+  ul { padding-left:20px; margin:8px 0 0; }
+  .mut { color:var(--mut); font-size:13px; }
+  audio { width:100%; margin-top:10px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Consultor Field Shift</h1>
+  <p class="sub">Grave uma pergunta. O áudio passa por Whisper, analista com dados da NASA, comunicador, voz e verificação, tudo local.</p>
+
+  <div class="card">
+    <label for="cliente">Produtor (id do perfil)</label>
+    <input id="cliente" value="joao-cianorte">
+    <div style="height:12px"></div>
+    <button id="gravar">Segure para falar</button>
+    <p class="mut" id="dica">Ou envie um arquivo: <input type="file" id="arquivo" accept="audio/*" style="width:auto;border:0;padding:0"></p>
+  </div>
+
+  <div class="card" id="painel" hidden>
+    <div class="mut" id="situacao">enviando…</div>
+    <div class="etapas" id="etapas"></div>
+    <div id="pergunta" style="margin-top:12px"></div>
+    <div id="resposta"></div>
+  </div>
+</main>
+<script>
+const ETAPAS = ["transcricao","contexto","analise","resposta","audio","verificacao","saida"];
+const NOMES = {transcricao:"ouvindo",contexto:"perfil",analise:"analisando dados",resposta:"escrevendo",audio:"voz",verificacao:"conferindo",saida:"pronto"};
+const $ = (id) => document.getElementById(id);
+let gravador, pedacos = [];
+
+async function enviar(blob) {
+  $("painel").hidden = false; $("resposta").innerHTML = ""; $("pergunta").innerHTML = ""; $("situacao").textContent = "enviando…";
+  const r = await fetch(`/audio?cliente=${encodeURIComponent($("cliente").value)}&canal=app`, { method:"POST", headers:{ "content-type": blob.type || "audio/webm" }, body: blob });
+  const j = await r.json();
+  if (!r.ok) { $("situacao").textContent = "erro: " + (j.erro || r.status); return; }
+  acompanhar(j.id);
+}
+
+function desenharEtapas(e) {
+  $("etapas").innerHTML = ETAPAS.map(n => {
+    const feita = e.etapas && Object.keys(e.etapas).some(k => k.startsWith(n) && e.etapas[k].fim);
+    const cls = e.etapaAtual === n && e.situacao === "processando" ? "atual" : feita ? "ok" : "";
+    return `<span class="etapa ${cls}">${NOMES[n]}</span>`;
+  }).join("");
+}
+
+function acompanhar(id) {
+  const fonte = new EventSource(`/trabalhos/${id}/eventos`);
+  fonte.onmessage = async (ev) => {
+    const e = JSON.parse(ev.data); if (!e) return;
+    desenharEtapas(e);
+    $("situacao").textContent = e.situacao === "processando" ? `${NOMES[e.etapaAtual] || e.etapaAtual}…` : e.situacao;
+    const d = await (await fetch(`/trabalhos/${id}`)).json();
+    if (d.pergunta) $("pergunta").innerHTML = `<div class="mut">Você disse</div><div>“${d.pergunta}”</div>`;
+    if (e.situacao === "concluido") {
+      fonte.close();
+      $("resposta").innerHTML = `<div class="mut" style="margin-top:12px">Consultor</div><div class="fala">${d.resposta.textoFalado}</div>
+        <ul>${d.resposta.textoTela.map(t => `<li>${t}</li>`).join("")}</ul>
+        <audio controls autoplay src="/trabalhos/${id}/audio"></audio>
+        <div class="mut">Verificação: ${d.verificacao.aprovado ? "aprovada" : "com ressalvas"} · ${(d.verificacao.similaridade*100).toFixed(0)}% do áudio reconhecido</div>`;
+    }
+    if (e.situacao === "falhou") { fonte.close(); $("situacao").textContent = "falhou: " + e.erro; }
+  };
+}
+
+const botao = $("gravar");
+async function iniciar() {
+  const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+  gravador = new MediaRecorder(stream); pedacos = [];
+  gravador.ondataavailable = (e) => pedacos.push(e.data);
+  gravador.onstop = () => { stream.getTracks().forEach(t => t.stop()); enviar(new Blob(pedacos, { type: gravador.mimeType })); };
+  gravador.start(); botao.classList.add("gravando"); botao.textContent = "Gravando… solte para enviar";
+}
+function parar() { if (gravador && gravador.state === "recording") { gravador.stop(); botao.classList.remove("gravando"); botao.textContent = "Segure para falar"; } }
+botao.addEventListener("pointerdown", iniciar);
+botao.addEventListener("pointerup", parar);
+botao.addEventListener("pointerleave", parar);
+$("arquivo").addEventListener("change", (e) => { const f = e.target.files[0]; if (f) enviar(f); });
+</script>
+</body>
+</html>

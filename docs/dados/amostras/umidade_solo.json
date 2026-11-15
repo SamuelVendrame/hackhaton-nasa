@@ -1,0 +1,107 @@
+{
+  "ferramenta": "umidade_solo",
+  "local": {
+    "cep": "87209000",
+    "municipio": "Cianorte",
+    "uf": "PR",
+    "ibge": "4105508",
+    "lat": -23.66333,
+    "lon": -52.605,
+    "precisao": "cep"
+  },
+  "periodo": {
+    "inicio": "2026-09-30",
+    "fim": "2026-11-14"
+  },
+  "resumo": [
+    "Umidade na zona das raízes (últimos 30 dias com dado, até 2026-11-12): 0.72 (escala 0–1), contra normal de 0.62 para a época (+18%).",
+    "Previsão de umidade a 27–81 cm: de 0.37 para 0.404 m³/m³ em 15 dias (umedecendo)."
+  ],
+  "dados": {
+    "umidadeRaiz30d": 0.72,
+    "normalRaiz": 0.62,
+    "relacaoNormalPct": 18,
+    "ultimoDiaComDado": "2026-11-12",
+    "previsaoCamadaRaiz": [
+      {
+        "data": "2026-11-15",
+        "m3m3": 0.37
+      },
+      {
+        "data": "2026-11-16",
+        "m3m3": 0.368
+      },
+      {
+        "data": "2026-11-17",
+        "m3m3": 0.365
+      },
+      {
+        "data": "2026-11-18",
+        "m3m3": 0.363
+      },
+      {
+        "data": "2026-11-19",
+        "m3m3": 0.36
+      },
+      {
+        "data": "2026-11-20",
+        "m3m3": 0.357
+      },
+      {
+        "data": "2026-11-21",
+        "m3m3": 0.355
+      },
+      {
+        "data": "2026-11-22",
+        "m3m3": 0.353
+      },
+      {
+        "data": "2026-11-23",
+        "m3m3": 0.352
+      },
+      {
+        "data": "2026-11-24",
+        "m3m3": 0.355
+      },
+      {
+        "data": "2026-11-25",
+        "m3m3": 0.361
+      },
+      {
+        "data": "2026-11-26",
+        "m3m3": 0.373
+      },
+      {
+        "data": "2026-11-27",
+        "m3m3": 0.375
+      },
+      {
+        "data": "2026-11-28",
+        "m3m3": 0.382
+      },
+      {
+        "data": "2026-11-29",
+        "m3m3": 0.404
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "nome": "NASA POWER (MERRA-2/GEOS)",
+      "url": "https://power.larc.nasa.gov/",
+      "resolucao": "~50 km",
+      "tipo": "reanalise"
+    },
+    {
+      "nome": "Open-Meteo Forecast (melhor combinação de modelos)",
+      "url": "https://open-meteo.com/en/docs",
+      "resolucao": "~2–11 km",
+      "tipo": "previsao"
+    }
+  ],
+  "limitacoes": [
+    "Umidade de solo modelada (reanálise ~50 km), não medida no talhão; serve como tendência regional.",
+    "Para medição por satélite (SMAP, 9 km) é necessária conta NASA Earthdata (pendente)."
+  ],
+  "geradoEm": "2026-11-15T07:49:46.613Z"
+}

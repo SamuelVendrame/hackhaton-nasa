@@ -1,0 +1,22 @@
+{
+  "name": "field-shift-agente",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "servir": "bun run src/cli.ts servir",
+    "observar": "bun run src/cli.ts observar",
+    "processar": "bun run src/cli.ts processar",
+    "simular": "bun run src/cli.ts simular",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "3.7.6",
+    "ffmpeg-static": "5.2.0",
+    "zod": "4.1.12"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.4",
+    "typescript": "5.9.3"
+  }
+}

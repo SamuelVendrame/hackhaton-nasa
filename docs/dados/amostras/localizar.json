@@ -1,0 +1,40 @@
+{
+  "ferramenta": "localizar",
+  "local": {
+    "cep": "87209000",
+    "municipio": "Cianorte",
+    "uf": "PR",
+    "ibge": "4105508",
+    "lat": -23.66333,
+    "lon": -52.605,
+    "precisao": "cep"
+  },
+  "resumo": [
+    "Cianorte/PR — lat -23.6633, lon -52.6050 (precisão: cep); IBGE 4105508."
+  ],
+  "dados": {
+    "cep": "87209000",
+    "municipio": "Cianorte",
+    "uf": "PR",
+    "ibge": "4105508",
+    "lat": -23.66333,
+    "lon": -52.605,
+    "precisao": "cep"
+  },
+  "fontes": [
+    {
+      "nome": "BrasilAPI CEP v2",
+      "url": "https://brasilapi.com.br/docs#tag/CEP-V2",
+      "tipo": "estatistica_oficial"
+    },
+    {
+      "nome": "IBGE Localidades/Malhas",
+      "url": "https://servicodados.ibge.gov.br/api/docs",
+      "tipo": "estatistica_oficial"
+    }
+  ],
+  "limitacoes": [
+    "A coordenada vem do CEP ou do município (em geral a área urbana). Para análises de solo, marcar o talhão no mapa é mais preciso."
+  ],
+  "geradoEm": "2026-11-15T07:49:43.299Z"
+}

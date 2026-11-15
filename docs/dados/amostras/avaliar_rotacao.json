@@ -1,0 +1,37 @@
+{
+  "ferramenta": "avaliar_rotacao",
+  "resumo": [
+    "A favor: Soja (leguminosa) após Batata (solanácea) alterna famílias, o que ajuda a quebrar ciclos de pragas e doenças.",
+    "Atenção: Problemas de solo em comum entre Batata e Soja: nematoide. Vale checar histórico desses problemas na área.",
+    "A favor: Soja fixa nitrogênio do ar, repondo parte do que Batata extraiu."
+  ],
+  "dados": {
+    "proposta": "Soja",
+    "anterior": "Batata",
+    "sinais": [
+      {
+        "tipo": "favoravel",
+        "texto": "Soja (leguminosa) após Batata (solanácea) alterna famílias, o que ajuda a quebrar ciclos de pragas e doenças."
+      },
+      {
+        "tipo": "atencao",
+        "texto": "Problemas de solo em comum entre Batata e Soja: nematoide. Vale checar histórico desses problemas na área."
+      },
+      {
+        "tipo": "favoravel",
+        "texto": "Soja fixa nitrogênio do ar, repondo parte do que Batata extraiu."
+      }
+    ],
+    "lacunas": []
+  },
+  "fontes": [
+    {
+      "nome": "Fichas de referência agronômica do projeto (a validar por agrônomo)",
+      "tipo": "referencia_agronomica"
+    }
+  ],
+  "limitacoes": [
+    "Regras gerais de rotação; não consideram o histórico de doenças da área nem a cultivar. Validar com agrônomo."
+  ],
+  "geradoEm": "2026-11-15T07:49:53.031Z"
+}

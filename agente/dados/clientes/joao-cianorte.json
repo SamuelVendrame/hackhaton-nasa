@@ -1,0 +1,33 @@
+{
+  "id": "joao-cianorte",
+  "nome": "João da Silva",
+  "comoChamar": "Seu João",
+  "local": {
+    "cep": "87209000",
+    "municipio": "Cianorte",
+    "uf": "PR",
+    "pontoDoTalhao": false
+  },
+  "propriedade": {
+    "areaHa": 24,
+    "irrigacao": false,
+    "culturaAtual": "batata",
+    "historicoPlantios": [
+      "soja",
+      "milho-safrinha",
+      "batata"
+    ],
+    "cooperativa": "Cocamar"
+  },
+  "comunicacao": {
+    "nivelTecnico": "basico",
+    "tamanhoResposta": "curta",
+    "formalidade": "respeitosa",
+    "expressoes": []
+  },
+  "observacoes": [
+    "Pretende plantar soja em meados de dezembro de 2026, depois da batata, que é a cultura atual.",
+    "Seu João está agora considerando plantar milho (1ª safra) em vez de soja, na mesma data pretendida de meados de dezembro de 2026, após a batata.",
+    "Seu João está agora considerando plantar feijão, em vez de soja ou milho, na mesma data pretendida de meados de dezembro de 2026, após a batata."
+  ]
+}

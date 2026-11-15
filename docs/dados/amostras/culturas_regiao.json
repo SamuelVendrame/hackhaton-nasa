@@ -1,0 +1,304 @@
+{
+  "ferramenta": "culturas_regiao",
+  "local": {
+    "cep": "87209000",
+    "municipio": "Cianorte",
+    "uf": "PR",
+    "ibge": "4105508",
+    "lat": -23.66333,
+    "lon": -52.605,
+    "precisao": "cep"
+  },
+  "resumo": [
+    "Em 2025, Cianorte colheu 37252 ha em lavouras. Principais: Cana-de-açúcar (38.2%), Soja (em grão) (34%), Milho (em grão) (13.7%), Mandioca (12.1%), Café (em grão) Total (1.3%).",
+    "Variação de área desde 2021: Cana-de-açúcar -20%, Soja (em grão) +5%, Milho (em grão) -8%, Mandioca +13%, Café (em grão) Total +23%."
+  ],
+  "dados": {
+    "ano": 2025,
+    "anoComparacao": 2021,
+    "areaTotalHa": 37252,
+    "culturas": [
+      {
+        "produto": "Cana-de-açúcar",
+        "areaColhidaHa": 14229,
+        "participacaoPct": 38.2,
+        "producaoT": 1053601,
+        "rendimentoKgHa": 74046,
+        "valorMilReais": 145397,
+        "variacaoAreaPct": -20
+      },
+      {
+        "produto": "Soja (em grão)",
+        "areaColhidaHa": 12650,
+        "participacaoPct": 34,
+        "producaoT": 33902,
+        "rendimentoKgHa": 2680,
+        "valorMilReais": 68889,
+        "variacaoAreaPct": 5
+      },
+      {
+        "produto": "Milho (em grão)",
+        "areaColhidaHa": 5100,
+        "participacaoPct": 13.7,
+        "producaoT": 25500,
+        "rendimentoKgHa": 5000,
+        "valorMilReais": 25500,
+        "variacaoAreaPct": -8
+      },
+      {
+        "produto": "Mandioca",
+        "areaColhidaHa": 4500,
+        "participacaoPct": 12.1,
+        "producaoT": 117000,
+        "rendimentoKgHa": 26000,
+        "valorMilReais": 68745,
+        "variacaoAreaPct": 13
+      },
+      {
+        "produto": "Café (em grão) Total",
+        "areaColhidaHa": 480,
+        "participacaoPct": 1.3,
+        "producaoT": 576,
+        "rendimentoKgHa": 1200,
+        "valorMilReais": 20350,
+        "variacaoAreaPct": 23
+      },
+      {
+        "produto": "Feijão (em grão)",
+        "areaColhidaHa": 65,
+        "participacaoPct": 0.2,
+        "producaoT": 93,
+        "rendimentoKgHa": 1431,
+        "valorMilReais": 269,
+        "variacaoAreaPct": 103
+      },
+      {
+        "produto": "Trigo (em grão)",
+        "areaColhidaHa": 50,
+        "participacaoPct": 0.1,
+        "producaoT": 149,
+        "rendimentoKgHa": 2980,
+        "valorMilReais": 179,
+        "variacaoAreaPct": -83
+      },
+      {
+        "produto": "Laranja",
+        "areaColhidaHa": 43,
+        "participacaoPct": 0.1,
+        "producaoT": 1505,
+        "rendimentoKgHa": 35000,
+        "valorMilReais": 2739,
+        "variacaoAreaPct": 43
+      },
+      {
+        "produto": "Goiaba",
+        "areaColhidaHa": 15,
+        "participacaoPct": 0,
+        "producaoT": 300,
+        "rendimentoKgHa": 20000,
+        "valorMilReais": 1488,
+        "variacaoAreaPct": 200
+      },
+      {
+        "produto": "Milho verde",
+        "areaColhidaHa": 15,
+        "participacaoPct": 0,
+        "producaoT": 188,
+        "rendimentoKgHa": 12533,
+        "valorMilReais": 470,
+        "variacaoAreaPct": null
+      },
+      {
+        "produto": "Morango",
+        "areaColhidaHa": 15,
+        "participacaoPct": 0,
+        "producaoT": 210,
+        "rendimentoKgHa": 14000,
+        "valorMilReais": 4326,
+        "variacaoAreaPct": null
+      },
+      {
+        "produto": "Batata-doce",
+        "areaColhidaHa": 12,
+        "participacaoPct": 0,
+        "producaoT": 180,
+        "rendimentoKgHa": 15000,
+        "valorMilReais": 414,
+        "variacaoAreaPct": null
+      },
+      {
+        "produto": "Banana (cacho)",
+        "areaColhidaHa": 10,
+        "participacaoPct": 0,
+        "producaoT": 220,
+        "rendimentoKgHa": 22000,
+        "valorMilReais": 349,
+        "variacaoAreaPct": 25
+      },
+      {
+        "produto": "Melancia",
+        "areaColhidaHa": 10,
+        "participacaoPct": 0,
+        "producaoT": 250,
+        "rendimentoKgHa": 25000,
+        "valorMilReais": 375,
+        "variacaoAreaPct": 400
+      },
+      {
+        "produto": "Repolho",
+        "areaColhidaHa": 8,
+        "participacaoPct": 0,
+        "producaoT": 150,
+        "rendimentoKgHa": 18750,
+        "valorMilReais": 134,
+        "variacaoAreaPct": null
+      },
+      {
+        "produto": "Abacate",
+        "areaColhidaHa": 6,
+        "participacaoPct": 0,
+        "producaoT": 120,
+        "rendimentoKgHa": 20000,
+        "valorMilReais": 519,
+        "variacaoAreaPct": 500
+      },
+      {
+        "produto": "Fumo (em folha)",
+        "areaColhidaHa": 6,
+        "participacaoPct": 0,
+        "producaoT": 12,
+        "rendimentoKgHa": 2000,
+        "valorMilReais": 205,
+        "variacaoAreaPct": -67
+      },
+      {
+        "produto": "Acerola",
+        "areaColhidaHa": 5,
+        "participacaoPct": 0,
+        "producaoT": 100,
+        "rendimentoKgHa": 20000,
+        "valorMilReais": 425,
+        "variacaoAreaPct": null
+      },
+      {
+        "produto": "Alface",
+        "areaColhidaHa": 5,
+        "participacaoPct": 0,
+        "producaoT": 91,
+        "rendimentoKgHa": 18200,
+        "valorMilReais": 346,
+        "variacaoAreaPct": null
+      },
+      {
+        "produto": "Limão",
+        "areaColhidaHa": 5,
+        "participacaoPct": 0,
+        "producaoT": 75,
+        "rendimentoKgHa": 15000,
+        "valorMilReais": 197,
+        "variacaoAreaPct": 67
+      },
+      {
+        "produto": "Abóbora",
+        "areaColhidaHa": 4,
+        "participacaoPct": 0,
+        "producaoT": 60,
+        "rendimentoKgHa": 15000,
+        "valorMilReais": 126,
+        "variacaoAreaPct": null
+      },
+      {
+        "produto": "Maracujá",
+        "areaColhidaHa": 4,
+        "participacaoPct": 0,
+        "producaoT": 120,
+        "rendimentoKgHa": 30000,
+        "valorMilReais": 900,
+        "variacaoAreaPct": null
+      },
+      {
+        "produto": "Tomate",
+        "areaColhidaHa": 3,
+        "participacaoPct": 0,
+        "producaoT": 240,
+        "rendimentoKgHa": 80000,
+        "valorMilReais": 742,
+        "variacaoAreaPct": -80
+      },
+      {
+        "produto": "Abacaxi",
+        "areaColhidaHa": 2,
+        "participacaoPct": 0,
+        "producaoT": 50,
+        "rendimentoKgHa": 25000,
+        "valorMilReais": 307,
+        "variacaoAreaPct": null
+      },
+      {
+        "produto": "Amendoim (em casca)",
+        "areaColhidaHa": 2,
+        "participacaoPct": 0,
+        "producaoT": 3,
+        "rendimentoKgHa": 1500,
+        "valorMilReais": 9,
+        "variacaoAreaPct": -90
+      },
+      {
+        "produto": "Cenoura",
+        "areaColhidaHa": 2,
+        "participacaoPct": 0,
+        "producaoT": 40,
+        "rendimentoKgHa": 20000,
+        "valorMilReais": 66,
+        "variacaoAreaPct": null
+      },
+      {
+        "produto": "Coco-da-baía",
+        "areaColhidaHa": 2,
+        "participacaoPct": 0,
+        "producaoT": 40,
+        "rendimentoKgHa": 20000,
+        "valorMilReais": 108,
+        "variacaoAreaPct": 0
+      },
+      {
+        "produto": "Uva",
+        "areaColhidaHa": 2,
+        "participacaoPct": 0,
+        "producaoT": 30,
+        "rendimentoKgHa": 15000,
+        "valorMilReais": 270,
+        "variacaoAreaPct": -60
+      },
+      {
+        "produto": "Pêssego",
+        "areaColhidaHa": 1,
+        "participacaoPct": 0,
+        "producaoT": 17,
+        "rendimentoKgHa": 17000,
+        "valorMilReais": 111,
+        "variacaoAreaPct": null
+      },
+      {
+        "produto": "Pimentão",
+        "areaColhidaHa": 1,
+        "participacaoPct": 0,
+        "producaoT": 20,
+        "rendimentoKgHa": 20000,
+        "valorMilReais": 60,
+        "variacaoAreaPct": null
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "nome": "IBGE — Produção Agrícola Municipal (SIDRA, tabela 5457)",
+      "url": "https://sidra.ibge.gov.br/tabela/5457",
+      "tipo": "estatistica_oficial"
+    }
+  ],
+  "limitacoes": [
+    "Estatística anual do município inteiro, publicada com cerca de um ano de atraso; não reflete a safra corrente."
+  ],
+  "geradoEm": "2026-11-15T07:49:48.656Z"
+}

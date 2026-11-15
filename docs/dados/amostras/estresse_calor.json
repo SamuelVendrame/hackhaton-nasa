@@ -1,0 +1,60 @@
+{
+  "ferramenta": "estresse_calor",
+  "local": {
+    "cep": "87209000",
+    "municipio": "Cianorte",
+    "uf": "PR",
+    "ibge": "4105508",
+    "lat": -23.66333,
+    "lon": -52.605,
+    "precisao": "cep"
+  },
+  "periodo": {
+    "inicio": "2026-11-15",
+    "fim": "2027-01-14"
+  },
+  "resumo": [
+    "Base dos dados da janela: 16 dia(s) de previsao, 45 dia(s) de previsao sazonal.",
+    "0 dia(s) previstos/observados com máxima ≥ 35 °C (maior sequência: 0); maior máxima: 30.4 °C.",
+    "Previsão sazonal: em média 0.2 dia(s) com máxima ≥ 35 °C na parte além de 16 dias.",
+    "Histórico: média de 12.4 dia(s) por ano com máxima ≥ 35 °C nesta janela (anos mais quentes: 22)."
+  ],
+  "dados": {
+    "limiar": 35,
+    "diasPrevistosAcimaLimiar": [],
+    "maiorSequenciaPrevista": 0,
+    "maiorMaximaPrevista": 30.4,
+    "diasSazonaisAcimaLimiar_media": 0.2,
+    "historico": {
+      "mediaDiasPorAno": 12.4,
+      "p90DiasPorAno": 22,
+      "anosAnalisados": 19
+    }
+  },
+  "fontes": [
+    {
+      "nome": "NASA POWER (MERRA-2/GEOS) — histórico 2006–2025",
+      "url": "https://power.larc.nasa.gov/",
+      "resolucao": "~50 km",
+      "tipo": "reanalise"
+    },
+    {
+      "nome": "Open-Meteo Forecast (melhor combinação de modelos)",
+      "url": "https://open-meteo.com/en/docs",
+      "resolucao": "~2–11 km",
+      "tipo": "previsao"
+    },
+    {
+      "nome": "Open-Meteo Seasonal (ECMWF SEAS5, ensemble)",
+      "url": "https://open-meteo.com/en/docs/seasonal-forecast-api",
+      "resolucao": "~36 km",
+      "tipo": "previsao_sazonal"
+    }
+  ],
+  "limitacoes": [
+    "Dados em grade (~50 km no histórico NASA POWER): representam a região, não o talhão; baixadas e espigões podem ser mais frios ou quentes.",
+    "Previsão sazonal (além de 16 dias) indica tendência, não o tempo de cada dia: use totais e médias do período, nunca datas específicas.",
+    "A previsão sazonal é a saída bruta do modelo ECMWF, sem correção de viés; em Cianorte ela tende a ser mais chuvosa e mais fresca que o histórico. Confirme a tendência no boletim sazonal do INMET/CPTEC antes de decisões grandes."
+  ],
+  "geradoEm": "2026-11-15T07:49:43.989Z"
+}

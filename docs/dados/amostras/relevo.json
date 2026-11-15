@@ -1,0 +1,34 @@
+{
+  "ferramenta": "relevo",
+  "local": {
+    "cep": "87209000",
+    "municipio": "Cianorte",
+    "uf": "PR",
+    "ibge": "4105508",
+    "lat": -23.7,
+    "lon": -52.56,
+    "precisao": "talhao"
+  },
+  "resumo": [
+    "Altitude 472 m, declividade de 3.7% (suave ondulado), posição: encosta/meia-encosta (+7 m em relação ao entorno de 1 km)."
+  ],
+  "dados": {
+    "altitudeM": 472,
+    "declividadePct": 3.7,
+    "classeDeclividade": "suave ondulado",
+    "diferencaVizinhancaM": 7,
+    "posicao": "encosta/meia-encosta"
+  },
+  "fontes": [
+    {
+      "nome": "Copernicus DEM GLO-90 (via Open-Meteo)",
+      "url": "https://open-meteo.com/en/docs/elevation-api",
+      "resolucao": "~90 m",
+      "tipo": "observacao"
+    }
+  ],
+  "limitacoes": [
+    "Modelo de elevação de 90 m: suaviza terraços e pequenas depressões dentro do talhão."
+  ],
+  "geradoEm": "2026-11-15T07:49:49.002Z"
+}
